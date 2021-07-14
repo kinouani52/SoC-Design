@@ -1,0 +1,171 @@
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Top\Top.vhd":22:7:22:9|Top entity is set to Top.
+File C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.vhd changed - recompiling
+File D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\mss_tshell.vhd changed - recompiling
+File D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd changed - recompiling
+File D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd changed - recompiling
+File D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer_pkg.vhd changed - recompiling
+File D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd changed - recompiling
+File D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control_wrapper.vhd changed - recompiling
+File D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd changed - recompiling
+File D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\Intro.vhd changed - recompiling
+File D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd changed - recompiling
+File D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer.vhd changed - recompiling
+File D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Top\Top.vhd changed - recompiling
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Top\Top.vhd":22:7:22:9|Synthesizing work.top.rtl.
+@N: CD630 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\Intro.vhd":17:7:17:11|Synthesizing work.intro.rtl.
+@N: CD630 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd":24:7:24:16|Synthesizing work.outbuf_mss.def_arch.
+Post processing for work.outbuf_mss.def_arch
+@N: CD630 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd":4:7:4:15|Synthesizing work.inbuf_mss.def_arch.
+Post processing for work.inbuf_mss.def_arch
+@N: CD630 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd":65:7:65:15|Synthesizing work.bibuf_mss.def_arch.
+Post processing for work.bibuf_mss.def_arch
+@N: CD630 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd":44:7:44:17|Synthesizing work.tribuff_mss.def_arch.
+Post processing for work.tribuff_mss.def_arch
+@N: CD630 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":8:7:8:33|Synthesizing work.intro_tmp_mss_ccc_0_mss_ccc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.vhd":2812:10:2812:12|Synthesizing smartfusion.vcc.syn_black_box.
+Post processing for smartfusion.vcc.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.vhd":1796:10:1796:12|Synthesizing smartfusion.gnd.syn_black_box.
+Post processing for smartfusion.gnd.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.vhd":3773:10:3773:14|Synthesizing smartfusion.rcosc.syn_black_box.
+Post processing for smartfusion.rcosc.syn_black_box
+@N: CD630 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd":472:7:472:13|Synthesizing work.mss_ccc.def_arch.
+Post processing for work.mss_ccc.def_arch
+Post processing for work.intro_tmp_mss_ccc_0_mss_ccc.def_arch
+@W: CL240 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":38:10:38:21|Signal LPXIN_CLKOUT is floating; a simulation mismatch is possible.
+@W: CL240 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":37:10:37:23|Signal MAINXIN_CLKOUT is floating; a simulation mismatch is possible.
+@W: CL240 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":36:10:36:21|Signal RCOSC_CLKOUT is floating; a simulation mismatch is possible.
+@N: CD630 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\mss_tshell.vhd":4:7:4:13|Synthesizing work.mss_apb.def_arch.
+Post processing for work.mss_apb.def_arch
+Post processing for work.intro.rtl
+@N: CD630 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control_wrapper.vhd":26:7:26:30|Synthesizing work.flashled_control_wrapper.architecture_flashled_control_wrapper.
+@N: CD630 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":23:7:23:22|Synthesizing work.flashled_control.architecture_flashled_control.
+@W: CG296 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":37:12:37:18|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":40:8:40:12|Referenced variable waddr is not in sensitivity list.
+@W: CG290 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":41:21:41:22|Referenced variable wd is not in sensitivity list.
+@W: CG296 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":48:11:48:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":51:6:51:19|Referenced variable reg_load_value is not in sensitivity list.
+@W: CG290 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":50:23:50:33|Referenced variable reg_control is not in sensitivity list.
+Post processing for work.flashled_control.architecture_flashled_control
+@W: CL117 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":50:0:50:1|Latch generated from process for signal RD(7 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":39:0:39:1|Latch generated from process for signal REG_load_value(7 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":39:0:39:1|Latch generated from process for signal REG_control(7 downto 0); possible missing assignment in an if or case statement.
+Post processing for work.flashled_control_wrapper.architecture_flashled_control_wrapper
+@W: CL240 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control_wrapper.vhd":36:1:36:7|Signal PSLVERR is floating; a simulation mismatch is possible.
+@N: CD630 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer.vhd":29:7:29:15|Synthesizing coretimer_lib.coretimer.synth.
+@N: CD364 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer.vhd":323:24:323:28|Removing redundant assignment.
+Post processing for coretimer_lib.coretimer.synth
+@N: CD630 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
+@N: CD604 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
+@W: CD434 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":1438:29:1438:38|Signal infill_upr in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":616:7:616:15|Signal ia_prdata is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
+Post processing for coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch
+Post processing for coreapb3_lib.coreapb3.coreapb3_arch
+Post processing for work.top.rtl
+@W: CL246 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":78:0:78:4|Input port bits 31 to 12 of paddr(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":109:0:109:7|Input PRDATAS2 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":110:0:110:7|Input PRDATAS3 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":111:0:111:7|Input PRDATAS4 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":112:0:112:7|Input PRDATAS5 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":113:0:113:7|Input PRDATAS6 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":114:0:114:7|Input PRDATAS7 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":115:0:115:7|Input PRDATAS8 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":116:0:116:7|Input PRDATAS9 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":117:0:117:8|Input PRDATAS10 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":118:0:118:8|Input PRDATAS11 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":119:0:119:8|Input PRDATAS12 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":120:0:120:8|Input PRDATAS13 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":121:0:121:8|Input PRDATAS14 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":122:0:122:8|Input PRDATAS15 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":126:0:126:7|Input PREADYS2 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":127:0:127:7|Input PREADYS3 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":128:0:128:7|Input PREADYS4 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":129:0:129:7|Input PREADYS5 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":130:0:130:7|Input PREADYS6 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":131:0:131:7|Input PREADYS7 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":132:0:132:7|Input PREADYS8 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":133:0:133:7|Input PREADYS9 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":134:0:134:8|Input PREADYS10 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":135:0:135:8|Input PREADYS11 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":136:0:136:8|Input PREADYS12 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":137:0:137:8|Input PREADYS13 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":138:0:138:8|Input PREADYS14 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":139:0:139:8|Input PREADYS15 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":143:0:143:8|Input PSLVERRS2 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":144:0:144:8|Input PSLVERRS3 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":145:0:145:8|Input PSLVERRS4 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":146:0:146:8|Input PSLVERRS5 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":147:0:147:8|Input PSLVERRS6 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":148:0:148:8|Input PSLVERRS7 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":149:0:149:8|Input PSLVERRS8 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":150:0:150:8|Input PSLVERRS9 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":151:0:151:9|Input PSLVERRS10 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":152:0:152:9|Input PSLVERRS11 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":153:0:153:9|Input PSLVERRS12 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":154:0:154:9|Input PSLVERRS13 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":155:0:155:9|Input PSLVERRS14 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":156:0:156:9|Input PSLVERRS15 is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control_wrapper.vhd":29:1:29:6|Input PRESET is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control_wrapper.vhd":32:1:32:7|Input PENABLE is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":10:10:10:13|Input CLKA is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":11:10:11:17|Input CLKA_PAD is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":12:10:12:18|Input CLKA_PADP is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":13:10:13:18|Input CLKA_PADN is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":14:10:14:13|Input CLKB is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":15:10:15:17|Input CLKB_PAD is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":16:10:16:18|Input CLKB_PADP is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":17:10:17:18|Input CLKB_PADN is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":18:10:18:13|Input CLKC is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":19:10:19:17|Input CLKC_PAD is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":20:10:20:18|Input CLKC_PADP is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":21:10:21:18|Input CLKC_PADN is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":22:10:22:16|Input MAINXIN is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":23:10:23:14|Input LPXIN is unused.
+@N: CL159 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":24:10:24:16|Input MAC_CLK is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 76MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 08 10:54:43 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 08 10:54:44 2020
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 08 10:54:44 2020
+
+###########################################################]

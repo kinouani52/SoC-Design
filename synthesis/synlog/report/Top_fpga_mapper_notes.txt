@@ -1,0 +1,12 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO106 :"d:\systemfiles\esigelec-2021\intro\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|Found ROM .delname. (in view: work.Top(rtl)) with 16 words by 2 bits.
+@N: MO231 :"d:\systemfiles\esigelec-2021\intro\component\actel\directcore\coretimer\2.0.103\rtl\vhdl\core\coretimer.vhd":309:8:309:9|Found counter in view:coretimer_lib.CoreTimer(synth) instance Count[31:0] 
+@N: MO231 :"d:\systemfiles\esigelec-2021\intro\component\actel\directcore\coretimer\2.0.103\rtl\vhdl\core\coretimer.vhd":233:8:233:9|Found counter in view:coretimer_lib.CoreTimer(synth) instance PreScale[9:0] 
+@N: FP130 |Promoting Net Intro_0_M2F_RESET_N on CLKINT  I_86 
+@N: FP130 |Promoting Net CoreTimer_0.un1_loadenreg on CLKINT  I_87 
+@N: MT615 |Found clock FCLK with period 31.25ns 
+@N: MT615 |Found clock FAB_CLK with period 31.25ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

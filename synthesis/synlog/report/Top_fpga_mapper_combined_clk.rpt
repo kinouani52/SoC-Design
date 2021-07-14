@@ -1,0 +1,28 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 118 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 24 clock pin(s) of sequential element(s)
+0 instances converted, 24 sequential instances remain driven by gated/generated clocks
+
+===================================== Non-Gated/Non-Generated Clocks =====================================
+Clock Tree ID     Driving Element     Drive Element Type                Fanout     Sample Instance        
+----------------------------------------------------------------------------------------------------------
+@K:CKID0004       Intro_0             clock definition on hierarchy     118        CoreTimer_0.iPRDATA[31]
+==========================================================================================================
+===================================================================================== Gated/Generated Clocks =====================================================================================
+Clock Tree ID     Driving Element                                           Drive Element Type            Fanout     Sample Instance                                     Explanation              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       FlashLED_control_wrapper_0.M1.REG_control_1_sqmuxa        clock definition on NOR3B     8          FlashLED_control_wrapper_0.M1.REG_load_value[0]     Clock conversion disabled
+@K:CKID0002       FlashLED_control_wrapper_0.M1.REG_control_0_sqmuxa        clock definition on NOR3C     8          FlashLED_control_wrapper_0.M1.REG_control[0]        Clock conversion disabled
+@K:CKID0003       FlashLED_control_wrapper_0.M1.REG_control_RNIJQVQ3[0]     clock definition on NOR3B     8          FlashLED_control_wrapper_0.M1.RD[0]                 Clock conversion disabled
+==================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

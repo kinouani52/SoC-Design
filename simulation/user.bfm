@@ -1,0 +1,67 @@
+#===========================================================
+# Enter your BFM commands in this file. 
+#
+# Syntax: 
+# ------- 
+#
+# memmap    resource_name base_address;
+#
+# write     width resource_name byte_offset data;
+# read      width resource_name byte_offset;
+# readcheck width resource_name byte_offset data;
+#
+#===========================================================
+
+procedure user_main;
+
+# uncomment the following include if you have soft peripherals in the fabric
+# that you want to simulate.  The subsystem.bfm file contains the memory map
+# of the soft peripherals.
+include "subsystem.bfm"
+
+# add your BFM commands below:
+write b FlashLED_control_wrapper_0 0x04 0x00AA;
+wait 10;
+write b FlashLED_control_wrapper_0 0x00 0x0001;
+wait 10;
+
+write w CoreTimer_0   0x00 0x0000000F;
+write w CoreTimer_0   0x08 0x00000003;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+read w CoreTimer_0  0x04;
+wait 1;
+write w CoreTimer_0 0x10  0x0;
+
+
+
+return

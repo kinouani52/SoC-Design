@@ -1,0 +1,14 @@
+[Library]
+others = $MODEL_TECH/../modelsim.ini
+smartfusion = C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/smartfusion
+presynth = presynth
+MSS_BFM_LIB = ../component/Actel/SmartFusionMSS/MSS/2.5.200/mti/user_verilog/MSS_BFM_LIB
+COREAPB3_LIB = COREAPB3_LIB
+CORETIMER_LIB = CORETIMER_LIB
+syncad_vhdl_lib = C:\Microsemi\Libero_SoC_v11.9\Designer/lib/actel/syncad_vhdl_lib
+
+[vcom]
+VHDL93 = 1
+
+[vsim]
+IterationLimit = 5000

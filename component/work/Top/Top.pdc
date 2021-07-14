@@ -1,0 +1,103 @@
+# Microsemi I/O Physical Design Constraints file
+# Auto Generated User I/O Constraints file
+
+# Version: v11.9 SP2 11.9.2.1
+# Family: SmartFusion , Die: A2F200M3F , Package: 484 FBGA
+# Date generated: Tue Dec 08 09:10:12 2020 
+
+
+# 
+# User Groups
+# 
+
+define_group -name SPI_0_PADs
+
+define_group -name UART_0_PADs
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+set_io MSS_RESET_N    \
+    -iostd LVTTL      \
+    -DIRECTION INPUT
+
+
+set_io UART_0_RXD     \
+    -iostd LVTTL      \
+    -DIRECTION INPUT
+
+
+set_io UART_0_TXD      \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+# User Group SPI_0_PADs
+
+set_io SPI_0_CLK            \
+    -iostd LVTTL            \
+    -GROUP_NAME SPI_0_PADs  \
+    -DIRECTION INOUT
+
+
+set_io SPI_0_DI             \
+    -iostd LVTTL            \
+    -GROUP_NAME SPI_0_PADs  \
+    -DIRECTION INPUT
+
+
+set_io SPI_0_DO             \
+    -iostd LVTTL            \
+    -GROUP_NAME SPI_0_PADs  \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_0_SS             \
+    -iostd LVTTL            \
+    -GROUP_NAME SPI_0_PADs  \
+    -DIRECTION INOUT
+
+
+
+#
+# Non IO constraints
+#
+
+
+#
+# Old IO constraints, commented out for reference
+#
+
+# set_io MSS_RESET_N -iostd LVTTL -DIRECTION INPUT 
+# set_io UART_0_RXD -iostd LVTTL -DIRECTION INPUT 
+# set_io UART_0_TXD -iostd LVTTL -DIRECTION OUTPUT 
+# set_io SPI_0_CLK -iostd LVTTL -GROUP_NAME SPI_0_PADs -DIRECTION INOUT 
+# set_io SPI_0_DI -iostd LVTTL -GROUP_NAME SPI_0_PADs -DIRECTION INPUT 
+# set_io SPI_0_DO -iostd LVTTL -GROUP_NAME SPI_0_PADs -DIRECTION OUTPUT 
+# set_io SPI_0_SS -iostd LVTTL -GROUP_NAME SPI_0_PADs -DIRECTION INOUT 

@@ -1,0 +1,121 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\SystemFiles\\ESIGELEC-2021\\Intro\\synthesis\\synwork\\Top_comp.srs|-top|work.Top|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|CORETIMER_LIB|-lib|CORETIMER_LIB|-lib|COREAPB3_LIB|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_vhdl.exe":1509012028
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\location.map":1509018036
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std.vhd":1509011528
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1509011528
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1509011528
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1509011528
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1509011846
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1509011528
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1509011528
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1509011528
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1509011528
+#CUR:"D:\\SystemFiles\\ESIGELEC-2021\\Intro\\hdl\\FlashLED_control.vhd":1607414885
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\smartfusion.vhd":1509009488
+#CUR:"D:\\SystemFiles\\ESIGELEC-2021\\Intro\\component\\Actel\\SmartFusionMSS\\MSS\\2.5.200\\mss_comps.vhd":1606906121
+#CUR:"D:\\SystemFiles\\ESIGELEC-2021\\Intro\\component\\work\\Intro\\mss_tshell.vhd":1606906118
+#CUR:"D:\\SystemFiles\\ESIGELEC-2021\\Intro\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_muxptob3.vhd":1606906151
+#CUR:"D:\\SystemFiles\\ESIGELEC-2021\\Intro\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_iaddr_reg.vhd":1606906151
+#CUR:"D:\\SystemFiles\\ESIGELEC-2021\\Intro\\component\\Actel\\DirectCore\\CoreTimer\\2.0.103\\rtl\\vhdl\\core\\coretimer_pkg.vhd":1606906152
+#CUR:"D:\\SystemFiles\\ESIGELEC-2021\\Intro\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\components.vhd":1606906151
+#CUR:"D:\\SystemFiles\\ESIGELEC-2021\\Intro\\hdl\\FlashLED_control_wrapper.vhd":1607414647
+#CUR:"D:\\SystemFiles\\ESIGELEC-2021\\Intro\\component\\work\\Intro\\MSS_CCC_0\\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":1606906114
+#CUR:"D:\\SystemFiles\\ESIGELEC-2021\\Intro\\component\\work\\Intro\\Intro.vhd":1606906121
+#CUR:"D:\\SystemFiles\\ESIGELEC-2021\\Intro\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3.vhd":1606906151
+#CUR:"D:\\SystemFiles\\ESIGELEC-2021\\Intro\\component\\Actel\\DirectCore\\CoreTimer\\2.0.103\\rtl\\vhdl\\core\\coretimer.vhd":1606906152
+#CUR:"D:\\SystemFiles\\ESIGELEC-2021\\Intro\\component\\work\\Top\\Top.vhd":1607415013
+0 "D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd" vhdl
+1 "D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control_wrapper.vhd" vhdl
+2 "D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd" vhdl
+3 "D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd" vhdl
+4 "D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\mss_tshell.vhd" vhdl
+5 "D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\Intro.vhd" vhdl
+6 "D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd" vhdl
+7 "D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd" vhdl
+8 "D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd" vhdl
+9 "D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer_pkg.vhd" vhdl
+10 "D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer.vhd" vhdl
+11 "D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd" vhdl
+12 "D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Top\Top.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 -1
+3 2 
+4 -1
+5 4 3 2 
+6 -1
+7 -1
+8 6 7 
+9 -1
+10 9 
+11 -1
+12 8 10 1 5 11 
+
+# Dependency Lists (Users Of)
+0 1 
+1 12 
+2 5 3 
+3 5 
+4 5 
+5 12 
+6 8 
+7 8 
+8 12 
+9 10 
+10 12 
+11 12 
+12 -1
+
+# Design Unit to File Association
+arch work flashled_control architecture_flashled_control 0
+module work flashled_control 0
+arch work flashled_control_wrapper architecture_flashled_control_wrapper 1
+module work flashled_control_wrapper 1
+arch work mss_ccc def_arch 2
+module work mss_ccc 2
+arch work mss_lpxtlosc def_arch 2
+module work mss_lpxtlosc 2
+arch work mss_xtlosc def_arch 2
+module work mss_xtlosc 2
+arch work mss_all def_arch 2
+module work mss_all 2
+arch work mssint def_arch 2
+module work mssint 2
+arch work inbuf_lvds_mccc def_arch 2
+module work inbuf_lvds_mccc 2
+arch work inbuf_lvpecl_mccc def_arch 2
+module work inbuf_lvpecl_mccc 2
+arch work inbuf_mccc def_arch 2
+module work inbuf_mccc 2
+arch work bibuf_opend_mss def_arch 2
+module work bibuf_opend_mss 2
+arch work bibuf_mss def_arch 2
+module work bibuf_mss 2
+arch work tribuff_mss def_arch 2
+module work tribuff_mss 2
+arch work outbuf_mss def_arch 2
+module work outbuf_mss 2
+arch work inbuf_mss def_arch 2
+module work inbuf_mss 2
+arch work intro_tmp_mss_ccc_0_mss_ccc def_arch 3
+module work intro_tmp_mss_ccc_0_mss_ccc 3
+arch work mss_apb def_arch 4
+module work mss_apb 4
+arch work intro rtl 5
+module work intro 5
+arch coreapb3_lib coreapb3_muxptob3 coreapb3_muxptob3_arch 6
+module coreapb3_lib coreapb3_muxptob3 6
+arch coreapb3_lib coreapb3_iaddr_reg rtl 7
+module coreapb3_lib coreapb3_iaddr_reg 7
+arch coreapb3_lib coreapb3 coreapb3_arch 8
+module coreapb3_lib coreapb3 8
+arch coretimer_lib coretimer synth 10
+module coretimer_lib coretimer 10
+arch work top rtl 12
+module work top 12
+
+
+# Configuration files used

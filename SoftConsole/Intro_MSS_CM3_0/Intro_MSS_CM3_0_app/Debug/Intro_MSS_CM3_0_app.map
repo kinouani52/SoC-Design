@@ -1,0 +1,664 @@
+Archive member included because of file (symbol)
+
+D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                              ./main.o (g_mss_uart0)
+D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                              D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o) (g_FrequencyPCLK0)
+c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+                              D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o (__errno)
+c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                              c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o) (_impure_ptr)
+c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                              D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o (__libc_init_array)
+
+Allocating common symbols
+Common symbol       size              file
+
+loop_count          0x2               ./main.o
+i                   0x1               ./main.o
+test                0x1               ./main.o
+g_mss_uart1         0x28              D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+addr                0x1               ./main.o
+num                 0x4               ./main.o
+data                0x4               ./main.o
+g_mss_uart0         0x28              D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ch                  0x4               ./main.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x00000000        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .text          0x00000000        0x0 ./main.o
+ .data          0x00000000        0x0 ./main.o
+ .bss           0x00000000        0x0 ./main.o
+ .bss.address   0x00000000        0x4 ./main.o
+ .text          0x00000000        0x0 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .data          0x00000000        0x0 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .bss           0x00000000        0x0 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .text          0x00000000        0x0 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .data          0x00000000        0x0 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss           0x00000000        0x0 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss.__env     0x00000000        0x4 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .data.environ  0x00000000        0x4 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._close   0x00000000       0x18 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._execve  0x00000000       0x28 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._exit    0x00000000        0xc D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._fork    0x00000000       0x18 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._fstat   0x00000000       0x24 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._getpid  0x00000000       0x10 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._isatty  0x00000000       0x18 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._kill    0x00000000       0x24 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._link    0x00000000       0x24 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._lseek   0x00000000       0x1c D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._open    0x00000000       0x1c D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._read    0x00000000       0x1c D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._write_r
+                0x00000000       0x20 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .rodata        0x00000000       0x1c D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._sbrk    0x00000000       0x94 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._stat    0x00000000       0x24 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._times   0x00000000       0x18 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._unlink  0x00000000       0x24 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._wait    0x00000000       0x24 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss.heap_end.2220
+                0x00000000        0x4 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text          0x00000000        0x0 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .data          0x00000000        0x0 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .bss           0x00000000        0x0 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.NVIC_EnableIRQ
+                0x00000000       0x38 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.NVIC_DisableIRQ
+                0x00000000       0x3c D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_polled_tx
+                0x00000000       0xe4 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_irq_tx
+                0x00000000       0xb0 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_tx_complete
+                0x00000000       0x90 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_get_rx
+                0x00000000       0xdc D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_enable_irq
+                0x00000000       0x7c D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_disable_irq
+                0x00000000       0x88 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_rx_handler
+                0x00000000       0xa8 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_loopback
+                0x00000000       0x70 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_rxstatus_handler
+                0x00000000       0x84 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_tx_handler
+                0x00000000       0x94 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_modemstatus_handler
+                0x00000000       0x84 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_fill_tx_fifo
+                0x00000000       0xd4 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_get_rx_status
+                0x00000000       0x80 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_get_modem_status
+                0x00000000       0x60 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_get_tx_status
+                0x00000000       0x78 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text          0x00000000        0x0 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .data          0x00000000        0x0 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .bss           0x00000000        0x0 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .text          0x00000000        0xc c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .data          0x00000000       0xf4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .rodata        0x00000000        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .rodata.str1.4
+                0x00000000        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .text          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x20000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+LOAD ./main.o
+LOAD D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+LOAD D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+LOAD D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a
+START GROUP
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+END GROUP
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+START GROUP
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libm.a
+END GROUP
+                0x00000000                __DYNAMIC = 0x0
+                0x20000000                RAM_START_ADDRESS = 0x20000000
+                0x00010000                RAM_SIZE = 0x10000
+                0x00002000                MAIN_STACK_SIZE = 0x2000
+                0x00001000                PROCESS_STACK_SIZE = 0x1000
+                0x20010000                PROVIDE (__main_stack_start, (RAM_START_ADDRESS + RAM_SIZE))
+                0x2000e000                PROVIDE (__process_stack_start, (__main_stack_start - MAIN_STACK_SIZE))
+                0x20010000                PROVIDE (_estack, __main_stack_start)
+                0x00000000                PROVIDE (__mirrored_nvm, 0x0)
+
+.text           0x20000000     0x11b8
+ CREATE_OBJECT_SYMBOLS
+                0x20000000                __text_load = LOADADDR (.text)
+                0x20000000                __text_start = .
+ *(.isr_vector)
+ .isr_vector    0x20000000      0x470 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+                0x20000000                g_pfnVectors
+                0x20000298                Reset_Handler
+                0x20000308                NMI_Handler
+                0x2000030a                HardFault_Handler
+                0x2000030c                MemManage_Handler
+                0x2000030e                BusFault_Handler
+                0x20000310                UsageFault_Handler
+                0x20000312                SVC_Handler
+                0x20000314                DebugMon_Handler
+                0x20000316                PendSV_Handler
+                0x20000318                SysTick_Handler
+                0x2000031a                WdogWakeup_IRQHandler
+                0x2000031c                BrownOut_1_5V_IRQHandler
+                0x2000031e                BrownOut_3_3V_IRQHandler
+                0x20000320                RTC_Match_IRQHandler
+                0x20000322                RTCIF_Pub_IRQHandler
+                0x20000324                EthernetMAC_IRQHandler
+                0x20000326                IAP_IRQHandler
+                0x20000328                ENVM0_IRQHandler
+                0x2000032a                ENVM1_IRQHandler
+                0x2000032c                DMA_IRQHandler
+                0x20000332                SPI0_IRQHandler
+                0x20000334                SPI1_IRQHandler
+                0x20000336                I2C0_IRQHandler
+                0x20000338                I2C0_SMBAlert_IRQHandler
+                0x2000033a                I2C0_SMBus_IRQHandler
+                0x2000033c                I2C1_IRQHandler
+                0x2000033e                I2C1_SMBAlert_IRQHandler
+                0x20000340                I2C1_SMBus_IRQHandler
+                0x20000344                Timer2_IRQHandler
+                0x20000346                PLL_Lock_IRQHandler
+                0x20000348                PLL_LockLost_IRQHandler
+                0x2000034a                CommError_IRQHandler
+                0x2000034e                GPIO0_IRQHandler
+                0x20000350                GPIO1_IRQHandler
+                0x20000352                GPIO2_IRQHandler
+                0x20000354                GPIO3_IRQHandler
+                0x20000356                GPIO4_IRQHandler
+                0x20000358                GPIO5_IRQHandler
+                0x2000035a                GPIO6_IRQHandler
+                0x2000035c                GPIO7_IRQHandler
+                0x2000035e                GPIO8_IRQHandler
+                0x20000360                GPIO9_IRQHandler
+                0x20000362                GPIO10_IRQHandler
+                0x20000364                GPIO11_IRQHandler
+                0x20000366                GPIO12_IRQHandler
+                0x20000368                GPIO13_IRQHandler
+                0x2000036a                GPIO14_IRQHandler
+                0x2000036c                GPIO15_IRQHandler
+                0x2000036e                GPIO16_IRQHandler
+                0x20000370                GPIO17_IRQHandler
+                0x20000372                GPIO18_IRQHandler
+                0x20000374                GPIO19_IRQHandler
+                0x20000376                GPIO20_IRQHandler
+                0x20000378                GPIO21_IRQHandler
+                0x2000037a                GPIO22_IRQHandler
+                0x2000037c                GPIO23_IRQHandler
+                0x2000037e                GPIO24_IRQHandler
+                0x20000380                GPIO25_IRQHandler
+                0x20000382                GPIO26_IRQHandler
+                0x20000384                GPIO27_IRQHandler
+                0x20000386                GPIO28_IRQHandler
+                0x20000388                GPIO29_IRQHandler
+                0x2000038a                GPIO30_IRQHandler
+                0x2000038c                GPIO31_IRQHandler
+                0x2000038e                ACE_PC0_Flag0_IRQHandler
+                0x20000390                ACE_PC0_Flag1_IRQHandler
+                0x20000392                ACE_PC0_Flag2_IRQHandler
+                0x20000394                ACE_PC0_Flag3_IRQHandler
+                0x20000396                ACE_PC1_Flag0_IRQHandler
+                0x20000398                ACE_PC1_Flag1_IRQHandler
+                0x2000039a                ACE_PC1_Flag2_IRQHandler
+                0x2000039c                ACE_PC1_Flag3_IRQHandler
+                0x2000039e                ACE_PC2_Flag0_IRQHandler
+                0x200003a0                ACE_PC2_Flag1_IRQHandler
+                0x200003a2                ACE_PC2_Flag2_IRQHandler
+                0x200003a4                ACE_PC2_Flag3_IRQHandler
+                0x200003a6                ACE_ADC0_DataValid_IRQHandler
+                0x200003a8                ACE_ADC1_DataValid_IRQHandler
+                0x200003aa                ACE_ADC2_DataValid_IRQHandler
+                0x200003ac                ACE_ADC0_CalDone_IRQHandler
+                0x200003ae                ACE_ADC1_CalDone_IRQHandler
+                0x200003b0                ACE_ADC2_CalDone_IRQHandler
+                0x200003b2                ACE_ADC0_CalStart_IRQHandler
+                0x200003b4                ACE_ADC1_CalStart_IRQHandler
+                0x200003b6                ACE_ADC2_CalStart_IRQHandler
+                0x200003b8                ACE_Comp0_Fall_IRQHandler
+                0x200003ba                ACE_Comp1_Fall_IRQHandler
+                0x200003bc                ACE_Comp2_Fall_IRQHandler
+                0x200003be                ACE_Comp3_Fall_IRQHandler
+                0x200003c0                ACE_Comp4_Fall_IRQHandler
+                0x200003c2                ACE_Comp5_Fall_IRQHandler
+                0x200003c4                ACE_Comp6_Fall_IRQHandler
+                0x200003c6                ACE_Comp7_Fall_IRQHandler
+                0x200003c8                ACE_Comp8_Fall_IRQHandler
+                0x200003ca                ACE_Comp9_Fall_IRQHandler
+                0x200003cc                ACE_Comp10_Fall_IRQHandler
+                0x200003ce                ACE_Comp11_Fall_IRQHandler
+                0x200003d0                ACE_Comp0_Rise_IRQHandler
+                0x200003d2                ACE_Comp1_Rise_IRQHandler
+                0x200003d4                ACE_Comp2_Rise_IRQHandler
+                0x200003d6                ACE_Comp3_Rise_IRQHandler
+                0x200003d8                ACE_Comp4_Rise_IRQHandler
+                0x200003da                ACE_Comp5_Rise_IRQHandler
+                0x200003dc                ACE_Comp6_Rise_IRQHandler
+                0x200003de                ACE_Comp7_Rise_IRQHandler
+                0x200003e0                ACE_Comp8_Rise_IRQHandler
+                0x200003e2                ACE_Comp9_Rise_IRQHandler
+                0x200003e4                ACE_Comp10_Rise_IRQHandler
+                0x200003e6                ACE_Comp11_Rise_IRQHandler
+                0x200003e8                ACE_ADC0_FifoFull_IRQHandler
+                0x200003ea                ACE_ADC0_FifoAFull_IRQHandler
+                0x200003ec                ACE_ADC0_FifoEmpty_IRQHandler
+                0x200003ee                ACE_ADC1_FifoFull_IRQHandler
+                0x200003f0                ACE_ADC1_FifoAFull_IRQHandler
+                0x200003f2                ACE_ADC1_FifoEmpty_IRQHandler
+                0x200003f4                ACE_ADC2_FifoFull_IRQHandler
+                0x200003f6                ACE_ADC2_FifoAFull_IRQHandler
+                0x200003f8                ACE_ADC2_FifoEmpty_IRQHandler
+                0x200003fa                ACE_PPE_Flag0_IRQHandler
+                0x200003fc                ACE_PPE_Flag1_IRQHandler
+                0x200003fe                ACE_PPE_Flag2_IRQHandler
+                0x20000400                ACE_PPE_Flag3_IRQHandler
+                0x20000402                ACE_PPE_Flag4_IRQHandler
+                0x20000404                ACE_PPE_Flag5_IRQHandler
+                0x20000406                ACE_PPE_Flag6_IRQHandler
+                0x20000408                ACE_PPE_Flag7_IRQHandler
+                0x2000040a                ACE_PPE_Flag8_IRQHandler
+                0x2000040c                ACE_PPE_Flag9_IRQHandler
+                0x2000040e                ACE_PPE_Flag10_IRQHandler
+                0x20000410                ACE_PPE_Flag11_IRQHandler
+                0x20000412                ACE_PPE_Flag12_IRQHandler
+                0x20000414                ACE_PPE_Flag13_IRQHandler
+                0x20000416                ACE_PPE_Flag14_IRQHandler
+                0x20000418                ACE_PPE_Flag15_IRQHandler
+                0x2000041a                ACE_PPE_Flag16_IRQHandler
+                0x2000041c                ACE_PPE_Flag17_IRQHandler
+                0x2000041e                ACE_PPE_Flag18_IRQHandler
+                0x20000420                ACE_PPE_Flag19_IRQHandler
+                0x20000422                ACE_PPE_Flag20_IRQHandler
+                0x20000424                ACE_PPE_Flag21_IRQHandler
+                0x20000426                ACE_PPE_Flag22_IRQHandler
+                0x20000428                ACE_PPE_Flag23_IRQHandler
+                0x2000042a                ACE_PPE_Flag24_IRQHandler
+                0x2000042c                ACE_PPE_Flag25_IRQHandler
+                0x2000042e                ACE_PPE_Flag26_IRQHandler
+                0x20000430                ACE_PPE_Flag27_IRQHandler
+                0x20000432                ACE_PPE_Flag28_IRQHandler
+                0x20000434                ACE_PPE_Flag29_IRQHandler
+                0x20000436                ACE_PPE_Flag30_IRQHandler
+                0x20000438                ACE_PPE_Flag31_IRQHandler
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x20000470       0x30 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .text.NVIC_EnableIRQ
+                0x200004a0       0x38 ./main.o
+ .text.NVIC_DisableIRQ
+                0x200004d8       0x3c ./main.o
+ .text.NVIC_ClearPendingIRQ
+                0x20000514       0x3c ./main.o
+ .text.MSS_TIM1_init
+                0x20000550       0x84 ./main.o
+ .text.MSS_TIM1_start
+                0x200005d4       0x1c ./main.o
+ .text.MSS_TIM1_load_immediate
+                0x200005f0       0x20 ./main.o
+ .text.MSS_TIM1_enable_irq
+                0x20000610       0x20 ./main.o
+ .text.MSS_TIM1_clear_irq
+                0x20000630       0x1c ./main.o
+ .text.Fabric_IRQHandler
+                0x2000064c       0x50 ./main.o
+                0x2000064c                Fabric_IRQHandler
+ .text.main     0x2000069c       0x68 ./main.o
+                0x2000069c                main
+ .text.config_CoreTimer
+                0x20000704       0x8c ./main.o
+                0x20000704                config_CoreTimer
+ .text.Timer1_IRQHandler
+                0x20000790       0x34 ./main.o
+                0x20000790                Timer1_IRQHandler
+ .text.NVIC_ClearPendingIRQ
+                0x200007c4       0x3c D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_init
+                0x20000800      0x204 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000800                MSS_UART_init
+ .text.MSS_UART_polled_tx_string
+                0x20000a04       0xd0 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000a04                MSS_UART_polled_tx_string
+ .text.MSS_UART_isr
+                0x20000ad4      0x11c D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.default_tx_handler
+                0x20000bf0      0x108 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.UART0_IRQHandler
+                0x20000cf8       0x2c D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000cf8                UART0_IRQHandler
+ .text.UART1_IRQHandler
+                0x20000d24       0x2c D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000d24                UART1_IRQHandler
+ .text.SystemInit
+                0x20000d50        0xc D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000d50                SystemInit
+ .text.SystemCoreClockUpdate
+                0x20000d5c      0x150 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000d5c                SystemCoreClockUpdate
+ .text.GetSystemClock
+                0x20000eac       0xe8 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .text          0x20000f94       0x50 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                0x20000f94                __libc_init_array
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+                0x20000fe4                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.gp_my_uart
+                0x20000fe4        0x4 ./main.o
+                0x20000fe4                gp_my_uart
+ .rodata.g_greeting_msg
+                0x20000fe8      0x160 ./main.o
+                0x20000fe8                g_greeting_msg
+ .rodata        0x20001148       0x40 ./main.o
+ .rodata.C.18.2576
+                0x20001188       0x10 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+ *(.eh_frame_hdr)
+ *(.eh_frame)
+ *(.init)
+ .init          0x20001198        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x20001198                _init
+ .init          0x2000119c        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ *(.fini)
+ .fini          0x200011a4        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x200011a4                _fini
+ .fini          0x200011a8        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+                0x200011b0                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x200011b0                PROVIDE (__preinit_array_end, .)
+                0x200011b0                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x200011b0        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+                0x200011b4                PROVIDE (__init_array_end, .)
+                0x200011b4                PROVIDE (__fini_array_start, .)
+ *(.fini_array)
+ .fini_array    0x200011b4        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x200011b8                PROVIDE (__fini_array_end, .)
+                0x200011b8                __exidx_start = .
+
+.v4_bx          0x200011b8        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x200011b8                __exidx_end = .
+                0x200011b8                _etext = .
+                0x200011b8                PROVIDE (__text_end, .)
+
+.data           0x200011b8       0x1c
+                0x200011b8                __data_load = LOADADDR (.data)
+                0x200011b8                _sidata = LOADADDR (.data)
+                0x200011b8                __data_start = .
+                0x200011b8                _sdata = .
+ *(.jcr)
+ .jcr           0x200011b8        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .jcr           0x200011b8        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.SystemFrequency
+                0x200011bc        0x4 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x200011bc                SystemFrequency
+ .data.SystemCoreClock
+                0x200011c0        0x4 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x200011c0                SystemCoreClock
+ .data.g_FrequencyPCLK0
+                0x200011c4        0x4 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x200011c4                g_FrequencyPCLK0
+ .data.g_FrequencyPCLK1
+                0x200011c8        0x4 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x200011c8                g_FrequencyPCLK1
+ .data.g_FrequencyACE
+                0x200011cc        0x4 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x200011cc                g_FrequencyACE
+ .data.g_FrequencyFPGA
+                0x200011d0        0x4 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x200011d0                g_FrequencyFPGA
+                0x200011d4                . = ALIGN (0x4)
+                0x200011d4                _edata = .
+
+.bss            0x200011d4       0x6c
+                0x200011d4                __bss_start__ = .
+                0x200011d4                _sbss = .
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x200011d4        0x1 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ *(COMMON)
+ *fill*         0x200011d5        0x3 00
+ COMMON         0x200011d8       0x14 ./main.o
+                0x200011d8                loop_count
+                0x200011da                i
+                0x200011db                test
+                0x200011dc                addr
+                0x200011e0                num
+                0x200011e4                data
+                0x200011e8                ch
+ COMMON         0x200011ec       0x50 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x200011ec                g_mss_uart1
+                0x20001214                g_mss_uart0
+                0x20001240                . = ALIGN (0x8)
+ *fill*         0x2000123c        0x4 00
+                0x20001240                __bss_end__ = .
+                0x20001240                _end = .
+                0x20001240                __end = _end
+                0x20001240                _ebss = .
+                0x20001240                PROVIDE (end, .)
+
+.stack          0x20001240     0x3000
+                0x20001240                . = ALIGN (0x4)
+                0x20002240                . = (. + PROCESS_STACK_SIZE)
+ *fill*         0x20001240     0x1000 00
+                0x20002240                . = ALIGN (0x4)
+                0x20004240                . = (. + MAIN_STACK_SIZE)
+ *fill*         0x20002240     0x2000 00
+                0x20004240                . = ALIGN (0x4)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.comment        0x00000000       0xac
+ .comment       0x00000000       0x2b ./main.o
+ .comment       0x0000002b       0x2b D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .comment       0x00000056       0x2b D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .comment       0x00000081       0x2b D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_aranges  0x00000000      0x228
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x78 ./main.o
+ .debug_aranges
+                0x00000078       0xa8 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_aranges
+                0x00000120       0xd8 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_aranges
+                0x000001f8       0x30 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_pubnames
+                0x00000000      0x484
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0xc9 ./main.o
+ .debug_pubnames
+                0x000000c9       0xeb D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_pubnames
+                0x000001b4      0x21c D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_pubnames
+                0x000003d0       0xb4 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_info     0x00000000     0x3641
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x14a2 ./main.o
+ .debug_info    0x000014a2      0x6bf D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_info    0x00001b61     0x15a4 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_info    0x00003105      0x53c D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_abbrev   0x00000000      0x6af
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x229 ./main.o
+ .debug_abbrev  0x00000229      0x130 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_abbrev  0x00000359      0x245 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_abbrev  0x0000059e      0x111 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_line     0x00000000     0x132b
+ *(.debug_line)
+ .debug_line    0x00000000      0x6e3 ./main.o
+ .debug_line    0x000006e3      0x458 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_line    0x00000b3b      0x575 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_line    0x000010b0      0x27b D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_frame    0x00000000      0x710
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x160 ./main.o
+ .debug_frame   0x00000160      0x21c D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_frame   0x0000037c      0x2e4 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_frame   0x00000660       0x64 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_frame   0x000006c4       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .debug_frame   0x000006e4       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+
+.debug_str      0x00000000     0x1a61
+ *(.debug_str)
+ .debug_str     0x00000000     0x135c ./main.o
+                               0x13f6 (size before relaxing)
+ .debug_str     0x0000135c      0x249 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                                0x321 (size before relaxing)
+ .debug_str     0x000015a5      0x3c5 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                               0x14b2 (size before relaxing)
+ .debug_str     0x0000196a       0xf7 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                                0x455 (size before relaxing)
+
+.debug_loc      0x00000000      0xbaf
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x240 ./main.o
+ .debug_loc     0x00000240      0x3c6 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_loc     0x00000606      0x510 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_loc     0x00000b16       0x99 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_macinfo  0x00000000    0x1918d
+ *(.debug_macinfo)
+ .debug_macinfo
+                0x00000000     0x8754 ./main.o
+ .debug_macinfo
+                0x00008754     0x4bf0 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_macinfo
+                0x0000d344     0x63ca D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_macinfo
+                0x0001370e     0x5a7f D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x25
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x19 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .ARM.attributes
+                0x00000019       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .ARM.attributes
+                0x00000042       0x31 ./main.o
+ .ARM.attributes
+                0x00000073       0x21 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .ARM.attributes
+                0x00000094       0x31 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .ARM.attributes
+                0x000000c5       0x31 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .ARM.attributes
+                0x000000f6       0x31 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .ARM.attributes
+                0x00000127       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000150       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000179       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x000001a2       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .ARM.attributes
+                0x000001cb       0x19 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.isr_vector)
+OUTPUT(Intro_MSS_CM3_0_app elf32-littlearm)
+
+.debug_ranges   0x00000000      0x208
+ .debug_ranges  0x00000000       0x70 ./main.o
+ .debug_ranges  0x00000070       0xa0 D:/SystemFiles/ESIGELEC-2021/Intro/SoftConsole/Intro_MSS_CM3_0/Intro_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_ranges  0x00000110       0xd0 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_ranges  0x000001e0       0x28 D:\SystemFiles\ESIGELEC-2021\Intro\SoftConsole\Intro_MSS_CM3_0\Intro_MSS_CM3_0_hw_platform\Debug\libIntro_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)

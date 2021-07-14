@@ -1,0 +1,1886 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# --- Using Windows Actel DirectCore AMBA BFM compiler
+# --- Compiling Actel DirectCore AMBA BFM source files ...
+# 
+# AMBA BFM Compiler (G4 Verification Version 2.1.106 04Feb09) 
+#   Reading
+#    Processing ./coreapb3_usertb_master.bfm
+#   Enumerating
+#   Assigning
+#   Checking
+#    Checking Complete
+#    31 Global  localconstants Defined
+#    42 Global  localvariables Defined
+#   Writing Vectors ./coreapb3_usertb_master.vec
+#    Commands Generated 201
+#    Vectors Generated 666
+#    Vector CheckSum cd447d4c
+# 
+# BFM Compiler Completed Okay
+# --- Done Compiling Actel DirectCore AMBA BFM source files.
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap smartfusion C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/smartfusion 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap MSS_BFM_LIB ../component/Actel/SmartFusionMSS/MSS/2.5.200/mti/user_verilog/MSS_BFM_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:31:22 on Dec 08,2020
+# vcom -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Skipping module acb_96_bit
+# -- Skipping module adc
+# -- Skipping module AddrDecM0
+# -- Skipping module AddrDecM1
+# -- Skipping module AddrDecM2
+# -- Skipping module AddrDecM3
+# -- Skipping module AddrDecM4
+# -- Skipping module AhbClient_HM
+# -- Skipping module AhbWrapper_FM
+# -- Skipping module AhbWrapper_HM
+# -- Skipping module analog_mux
+# -- Skipping module analog_mux_F060
+# -- Skipping module analog_quad
+# -- Skipping module ApbClient_HM
+# -- Skipping module ApbWrapper_FM
+# -- Skipping module BFM_MAIN
+# -- Skipping module Client_FM
+# -- Skipping module ClientAddrData_FM
+# -- Skipping module ClientAddrData_HM
+# -- Skipping module CMMaster0Stage
+# -- Skipping module CMMaster1Stage
+# -- Skipping module CMMaster2Stage
+# -- Skipping module CMMaster3Stage
+# -- Skipping module CMMaster4Stage
+# -- Skipping module CMSlaveStage
+# -- Skipping module DefaultSlaveSM
+# -- Skipping module dp512x32
+# -- Skipping module dp512x32_col
+# -- Skipping module drive_analog_input
+# -- Skipping module drive_analog_input_varef
+# -- Skipping module drive_analog_io
+# -- Skipping module drive_analog_io_39bit
+# -- Skipping module drive_current_inputs
+# -- Skipping module drive_current_monitor
+# -- Skipping module drive_differential_inputs
+# -- Skipping module drive_temperature_quad
+# -- Skipping module drive_varef_out
+# -- Skipping module DSSAB
+# -- Skipping module DSSAB_F060
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package em_pkg
+# -- Compiling entity EM_addr_gen
+# -- Compiling architecture rtl of EM_addr_gen
+# -- Compiling entity EM_ahb_int
+# -- Compiling architecture rtl of EM_ahb_int
+# -- Compiling entity EM_phase_gen
+# -- Compiling architecture rtl of EM_phase_gen
+# -- Compiling package em_pkg
+# -- Compiling package body em_pkg
+# -- Loading package em_pkg
+# -- Loading package em_pkg
+# -- Compiling entity EM_rdata_gen
+# -- Compiling architecture rtl of EM_rdata_gen
+# -- Compiling entity EM_wdata_gen
+# -- Compiling architecture rtl of EM_wdata_gen
+# -- Skipping module F2_ACE_512x16
+# -- Skipping module F2AB
+# -- Skipping module F2AB_F060
+# -- Skipping module F2DSS_ACE
+# -- Skipping module F2DSS_ACE_MISC
+# -- Skipping module F2DSS_ACE_MISC_APB3
+# -- Skipping module F2DSS_ACE_MISC_FDET
+# -- Skipping module F2DSS_ACE_MISC_FDET12
+# -- Skipping module F2DSS_ACE_MISC_INT_LOGIC
+# -- Skipping module F2DSS_ACE_MISC_PDMA
+# -- Skipping module F2DSS_ACE_MISC_RDET
+# -- Skipping module F2DSS_ACE_MISC_RDET12
+# -- Skipping module F2DSS_ACE_MISC_RDET32
+# -- Skipping module F2DSS_ACE_MISC_RDMUX
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Skipping module F2DSS_ACE_MISC_SYNC
+# -- Skipping module F2DSS_ACE_MISC_SYNC12
+# -- Skipping module F2DSS_ACE_PPE
+# -- Skipping module F2DSS_ACE_PPE_ADDER
+# -- Skipping module F2DSS_ACE_PPE_ALU
+# -- Skipping module F2DSS_ACE_PPE_DPRAM
+# -- Skipping module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FIFO
+# -- Skipping module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FSM
+# -- Skipping module F2DSS_ACE_PPE_FSM_STFILT
+# -- Skipping module F2DSS_ACE_PPE_MULT
+# -- Skipping module F2DSS_ACE_PPE_RDMUX
+# -- Skipping module F2DSS_ACE_PPE_SSE_CTRL
+# -- Skipping module F2DSS_ACE_PPE_THRFLAGS
+# -- Skipping module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Skipping module F2DSS_ACE_RAMS
+# -- Skipping module F2DSS_COMMSMATRIX
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity F2DSS_EMC
+# -- Compiling architecture rtl of F2DSS_EMC
+# -- Skipping module F2DSS_FABRICIF
+# -- Skipping module F2DSS_GPIO
+# -- Skipping module F2DSS_SSE
+# -- Skipping module F2DSS_SSE_APB3_PPE_IF
+# -- Skipping module F2DSS_SSE_ENGINE
+# -- Skipping module F2DSS_SSE_PHASE_ACCUMS
+# -- Skipping module F2DSS_SSE_TDM_FSM
+# -- Skipping module FABRICIF_FM
+# -- Skipping module FABRICIF_HM
+# -- Skipping module M3_BFM
+# -- Skipping module Matrix5x8
+# -- Skipping module MSS_AHB
+# -- Skipping module MSS_AHB_F060
+# -- Skipping module MSS_AHB_F060_IP
+# -- Skipping module MSS_AHB_IP
+# -- Skipping module MSS_APB
+# -- Skipping module MSS_APB_F060
+# -- Skipping module MSS_APB_F060_IP
+# -- Skipping module MSS_APB_IP
+# -- Skipping module MSS_APBSLAVES
+# -- Skipping module MSS_BFM_AHB2APB
+# -- Skipping module MSS_BFM_AHBSLAVE
+# -- Skipping module MSS_BFM_AHBSLAVEEXT
+# -- Skipping module mss_clockgen
+# -- Skipping module MSS_SYSREG
+# -- Skipping module obd
+# -- Skipping module obd_mux
+# -- Skipping module read_39bit_analog_io
+# -- Skipping module read_analog_input
+# -- Skipping module read_analog_io
+# -- Skipping module SINGLE_PORT_RAM
+# -- Skipping module SlaveArbiter
+# -- Skipping module sp512x16
+# End time: 09:31:23 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:31:24 on Dec 08,2020
+# vlog -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Refreshing module acb_96_bit
+# -- Refreshing module adc
+# -- Refreshing module AddrDecM0
+# -- Refreshing module AddrDecM1
+# -- Refreshing module AddrDecM2
+# -- Refreshing module AddrDecM3
+# -- Refreshing module AddrDecM4
+# -- Refreshing module AhbClient_HM
+# -- Refreshing module AhbWrapper_FM
+# -- Refreshing module AhbWrapper_HM
+# -- Refreshing module analog_mux
+# -- Refreshing module analog_mux_F060
+# -- Refreshing module analog_quad
+# -- Refreshing module ApbClient_HM
+# -- Refreshing module ApbWrapper_FM
+# -- Refreshing module BFM_MAIN
+# -- Refreshing module Client_FM
+# -- Refreshing module ClientAddrData_FM
+# -- Refreshing module ClientAddrData_HM
+# -- Refreshing module CMMaster0Stage
+# -- Refreshing module CMMaster1Stage
+# -- Refreshing module CMMaster2Stage
+# -- Refreshing module CMMaster3Stage
+# -- Refreshing module CMMaster4Stage
+# -- Refreshing module CMSlaveStage
+# -- Refreshing module DefaultSlaveSM
+# -- Refreshing module dp512x32
+# -- Refreshing module dp512x32_col
+# -- Refreshing module drive_analog_input
+# -- Refreshing module drive_analog_input_varef
+# -- Refreshing module drive_analog_io
+# -- Refreshing module drive_analog_io_39bit
+# -- Refreshing module drive_current_inputs
+# -- Refreshing module drive_current_monitor
+# -- Refreshing module drive_differential_inputs
+# -- Refreshing module drive_temperature_quad
+# -- Refreshing module drive_varef_out
+# -- Refreshing module DSSAB
+# -- Refreshing module DSSAB_F060
+# -- Skipping entity em_addr_gen
+# -- Skipping entity em_ahb_int
+# -- Skipping entity em_phase_gen
+# -- Skipping package em_pkg
+# -- Skipping entity em_rdata_gen
+# -- Skipping entity em_wdata_gen
+# -- Refreshing module F2_ACE_512x16
+# -- Refreshing module F2AB
+# -- Refreshing module F2AB_F060
+# -- Refreshing module F2DSS_ACE
+# -- Refreshing module F2DSS_ACE_MISC
+# -- Refreshing module F2DSS_ACE_MISC_APB3
+# -- Refreshing module F2DSS_ACE_MISC_FDET
+# -- Refreshing module F2DSS_ACE_MISC_FDET12
+# -- Refreshing module F2DSS_ACE_MISC_INT_LOGIC
+# -- Refreshing module F2DSS_ACE_MISC_PDMA
+# -- Refreshing module F2DSS_ACE_MISC_RDET
+# -- Refreshing module F2DSS_ACE_MISC_RDET12
+# -- Refreshing module F2DSS_ACE_MISC_RDET32
+# -- Refreshing module F2DSS_ACE_MISC_RDMUX
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Refreshing module F2DSS_ACE_MISC_SYNC
+# -- Refreshing module F2DSS_ACE_MISC_SYNC12
+# -- Refreshing module F2DSS_ACE_PPE
+# -- Refreshing module F2DSS_ACE_PPE_ADDER
+# -- Refreshing module F2DSS_ACE_PPE_ALU
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FIFO
+# -- Refreshing module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FSM
+# -- Refreshing module F2DSS_ACE_PPE_FSM_STFILT
+# -- Refreshing module F2DSS_ACE_PPE_MULT
+# -- Refreshing module F2DSS_ACE_PPE_RDMUX
+# -- Refreshing module F2DSS_ACE_PPE_SSE_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_THRFLAGS
+# -- Refreshing module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Refreshing module F2DSS_ACE_RAMS
+# -- Refreshing module F2DSS_COMMSMATRIX
+# -- Skipping entity f2dss_emc
+# -- Refreshing module F2DSS_FABRICIF
+# -- Refreshing module F2DSS_GPIO
+# -- Refreshing module F2DSS_SSE
+# -- Refreshing module F2DSS_SSE_APB3_PPE_IF
+# -- Refreshing module F2DSS_SSE_ENGINE
+# -- Refreshing module F2DSS_SSE_PHASE_ACCUMS
+# -- Refreshing module F2DSS_SSE_TDM_FSM
+# -- Refreshing module FABRICIF_FM
+# -- Refreshing module FABRICIF_HM
+# -- Refreshing module M3_BFM
+# -- Refreshing module Matrix5x8
+# -- Refreshing module MSS_AHB
+# -- Refreshing module MSS_AHB_F060
+# -- Refreshing module MSS_AHB_F060_IP
+# -- Refreshing module MSS_AHB_IP
+# -- Refreshing module MSS_APB
+# -- Refreshing module MSS_APB_F060
+# -- Refreshing module MSS_APB_F060_IP
+# -- Refreshing module MSS_APB_IP
+# -- Refreshing module MSS_APBSLAVES
+# -- Refreshing module MSS_BFM_AHB2APB
+# -- Refreshing module MSS_BFM_AHBSLAVE
+# -- Refreshing module MSS_BFM_AHBSLAVEEXT
+# -- Refreshing module mss_clockgen
+# -- Refreshing module MSS_SYSREG
+# -- Refreshing module obd
+# -- Refreshing module obd_mux
+# -- Refreshing module read_39bit_analog_io
+# -- Refreshing module read_analog_input
+# -- Refreshing module read_analog_io
+# -- Refreshing module SINGLE_PORT_RAM
+# -- Refreshing module SlaveArbiter
+# -- Refreshing module sp512x16
+# End time: 09:31:25 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# INFO: Simulation library COREAPB3_LIB already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap COREAPB3_LIB COREAPB3_LIB 
+# Modifying modelsim.ini
+# INFO: Simulation library CORETIMER_LIB already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap CORETIMER_LIB CORETIMER_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:31:25 on Dec 08,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/SystemFiles/ESIGELEC-2021/Intro/hdl/FlashLED_control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FlashLED_control
+# -- Compiling architecture architecture_FlashLED_control of FlashLED_control
+# End time: 09:31:26 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:31:26 on Dec 08,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/SystemFiles/ESIGELEC-2021/Intro/hdl/FlashLED_control_wrapper.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FlashLED_control_wrapper
+# -- Compiling architecture architecture_FlashLED_control_wrapper of FlashLED_control_wrapper
+# End time: 09:31:26 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:31:26 on Dec 08,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/SystemFiles/ESIGELEC-2021/Intro/component/work/Intro/MSS_CCC_0/Intro_tmp_MSS_CCC_0_MSS_CCC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Intro_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling architecture DEF_ARCH of Intro_tmp_MSS_CCC_0_MSS_CCC
+# End time: 09:31:26 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:31:27 on Dec 08,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/SystemFiles/ESIGELEC-2021/Intro/component/work/Intro/Intro.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Intro
+# -- Compiling architecture RTL of Intro
+# -- Loading package vl_types
+# -- Loading entity RCOSC
+# -- Loading entity MSSINT
+# End time: 09:31:27 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:31:27 on Dec 08,2020
+# vcom -reportprogress 300 -2008 -explicit -work COREAPB3_LIB D:/SystemFiles/ESIGELEC-2021/Intro/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity COREAPB3_MUXPTOB3
+# -- Compiling architecture COREAPB3_MUXPTOB3_arch of COREAPB3_MUXPTOB3
+# End time: 09:31:27 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:31:28 on Dec 08,2020
+# vcom -reportprogress 300 -2008 -explicit -work COREAPB3_LIB D:/SystemFiles/ESIGELEC-2021/Intro/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity coreapb3_iaddr_reg
+# -- Compiling architecture rtl of coreapb3_iaddr_reg
+# End time: 09:31:28 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:31:28 on Dec 08,2020
+# vcom -reportprogress 300 -2008 -explicit -work COREAPB3_LIB D:/SystemFiles/ESIGELEC-2021/Intro/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity CoreAPB3
+# -- Compiling architecture CoreAPB3_arch of CoreAPB3
+# End time: 09:31:28 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:31:28 on Dec 08,2020
+# vcom -reportprogress 300 -2008 -explicit -work CORETIMER_LIB D:/SystemFiles/ESIGELEC-2021/Intro/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vhdl/core/coretimer_pkg.vhd 
+# -- Loading package STANDARD
+# -- Compiling package coretimer_pkg
+# -- Compiling package body coretimer_pkg
+# -- Loading package coretimer_pkg
+# End time: 09:31:28 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:31:29 on Dec 08,2020
+# vcom -reportprogress 300 -2008 -explicit -work CORETIMER_LIB D:/SystemFiles/ESIGELEC-2021/Intro/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vhdl/core/coretimer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package coretimer_pkg
+# -- Compiling entity CoreTimer
+# -- Compiling architecture synth of CoreTimer
+# End time: 09:31:29 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:31:29 on Dec 08,2020
+# vcom -reportprogress 300 -2008 -explicit -work COREAPB3_LIB D:/SystemFiles/ESIGELEC-2021/Intro/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package components
+# End time: 09:31:29 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:31:29 on Dec 08,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/SystemFiles/ESIGELEC-2021/Intro/component/work/Top/Top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package components
+# -- Compiling entity Top
+# -- Compiling architecture RTL of Top
+# -- Loading package NUMERIC_STD
+# -- Loading entity CoreAPB3
+# -- Loading entity FlashLED_control_wrapper
+# End time: 09:31:30 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 09:31:30 on Dec 08,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth D:/SystemFiles/ESIGELEC-2021/Intro/stimulus/intro_test_stimulus.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity intro_test_stimulus
+# -- Compiling architecture behavioral of intro_test_stimulus
+# End time: 09:31:30 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L smartfusion -L presynth -L MSS_BFM_LIB -L COREAPB3_LIB -L CORETIMER_LIB -t 1ps presynth.intro_test_stimulus 
+# Start time: 09:31:30 on Dec 08,2020
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.intro_test_stimulus(behavioral)
+# Loading COREAPB3_LIB.components
+# Loading ieee.numeric_std(body)
+# Loading presynth.top(rtl)
+# Loading COREAPB3_LIB.coreapb3(coreapb3_arch)
+# Loading COREAPB3_LIB.coreapb3_muxptob3(coreapb3_muxptob3_arch)
+# Loading CORETIMER_LIB.coretimer_pkg(body)
+# Loading CORETIMER_LIB.coretimer(fast)
+# Loading presynth.flashled_control_wrapper(architecture_flashled_control_wrapper)
+# Loading presynth.flashled_control(architecture_flashled_control)
+# Loading verilog.vl_types(body)
+# Loading presynth.intro(rtl)
+# Loading MSS_BFM_LIB.MSS_APB
+# Loading MSS_BFM_LIB.MSS_APB_IP
+# Loading MSS_BFM_LIB.MSS_BFM_AHB2APB
+# Loading MSS_BFM_LIB.DSSAB
+# Loading MSS_BFM_LIB.F2AB
+# Loading MSS_BFM_LIB.read_analog_io
+# Loading MSS_BFM_LIB.drive_varef_out
+# Loading MSS_BFM_LIB.acb_96_bit
+# Loading MSS_BFM_LIB.adc
+# Loading MSS_BFM_LIB.MSS_BFM_AHBSLAVE
+# Loading MSS_BFM_LIB.MSS_BFM_AHBSLAVEEXT
+# Loading MSS_BFM_LIB.MSS_APBSLAVES
+# Loading MSS_BFM_LIB.F2DSS_GPIO
+# Loading MSS_BFM_LIB.M3_BFM
+# Loading MSS_BFM_LIB.BFM_MAIN
+# Loading MSS_BFM_LIB.MSS_SYSREG
+# Loading MSS_BFM_LIB.F2DSS_ACE
+# Loading MSS_BFM_LIB.F2DSS_SSE
+# Loading MSS_BFM_LIB.F2DSS_SSE_APB3_PPE_IF
+# Loading MSS_BFM_LIB.F2DSS_SSE_ENGINE
+# Loading MSS_BFM_LIB.F2DSS_SSE_TDM_FSM
+# Loading MSS_BFM_LIB.F2DSS_SSE_PHASE_ACCUMS
+# Loading MSS_BFM_LIB.F2DSS_ACE_PPE
+# Loading MSS_BFM_LIB.F2DSS_ACE_PPE_FSM
+# Loading MSS_BFM_LIB.F2DSS_ACE_PPE_DPRAM_CTRL
+# Loading MSS_BFM_LIB.F2DSS_ACE_PPE_DPRAM
+# Loading MSS_BFM_LIB.dp512x32_col
+# Loading MSS_BFM_LIB.dp512x32
+# Loading MSS_BFM_LIB.F2DSS_ACE_PPE_XFER_DINMUX
+# Loading MSS_BFM_LIB.F2DSS_ACE_PPE_FIFO_CTRL
+# Loading MSS_BFM_LIB.F2DSS_ACE_PPE_FIFO
+# Loading MSS_BFM_LIB.F2DSS_ACE_PPE_ALU
+# Loading MSS_BFM_LIB.F2DSS_ACE_PPE_ADDER
+# Loading MSS_BFM_LIB.F2DSS_ACE_PPE_MULT
+# Loading MSS_BFM_LIB.F2DSS_ACE_PPE_FSM_STFILT
+# Loading MSS_BFM_LIB.F2DSS_ACE_PPE_THRFLAGS
+# Loading MSS_BFM_LIB.F2DSS_ACE_PPE_SSE_CTRL
+# Loading MSS_BFM_LIB.F2DSS_ACE_PPE_RDMUX
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_SYNC12
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_INT_LOGIC
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_STICKYFLAG21
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_RDET12
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_FDET12
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_STICKYFLAG24
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_RDET32
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_STICKYFLAG32
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_RDET
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_FDET
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_STICKYFLAG9
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_PDMA
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_APB3
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_RDMUX
+# Loading MSS_BFM_LIB.F2DSS_COMMSMATRIX
+# Loading MSS_BFM_LIB.Matrix5x8
+# Loading MSS_BFM_LIB.CMMaster0Stage
+# Loading MSS_BFM_LIB.AddrDecM0
+# Loading MSS_BFM_LIB.DefaultSlaveSM
+# Loading MSS_BFM_LIB.CMMaster1Stage
+# Loading MSS_BFM_LIB.AddrDecM1
+# Loading MSS_BFM_LIB.CMMaster2Stage
+# Loading MSS_BFM_LIB.AddrDecM2
+# Loading MSS_BFM_LIB.CMMaster3Stage
+# Loading MSS_BFM_LIB.AddrDecM3
+# Loading MSS_BFM_LIB.CMMaster4Stage
+# Loading MSS_BFM_LIB.AddrDecM4
+# Loading MSS_BFM_LIB.CMSlaveStage
+# Loading MSS_BFM_LIB.SlaveArbiter
+# Loading MSS_BFM_LIB.mss_clockgen
+# Loading MSS_BFM_LIB.F2DSS_FABRICIF
+# Loading MSS_BFM_LIB.FABRICIF_HM
+# Loading MSS_BFM_LIB.AhbWrapper_HM
+# Loading MSS_BFM_LIB.ClientAddrData_HM
+# Loading MSS_BFM_LIB.AhbClient_HM
+# Loading MSS_BFM_LIB.ApbClient_HM
+# Loading MSS_BFM_LIB.FABRICIF_FM
+# Loading MSS_BFM_LIB.Client_FM
+# Loading MSS_BFM_LIB.ClientAddrData_FM
+# Loading MSS_BFM_LIB.AhbWrapper_FM
+# Loading MSS_BFM_LIB.ApbWrapper_FM
+# Loading MSS_BFM_LIB.analog_quad
+# Loading MSS_BFM_LIB.analog_mux
+# Loading MSS_BFM_LIB.obd_mux
+# Loading MSS_BFM_LIB.obd
+# Loading MSS_BFM_LIB.sp512x16
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_SYNC
+# Loading MSS_BFM_LIB.F2DSS_ACE_MISC_STICKYFLAG
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading MSS_BFM_LIB.em_pkg(body)
+# Loading MSS_BFM_LIB.f2dss_emc(rtl)
+# Loading MSS_BFM_LIB.em_ahb_int(rtl)
+# Loading MSS_BFM_LIB.em_phase_gen(rtl)
+# Loading MSS_BFM_LIB.em_addr_gen(rtl)
+# Loading MSS_BFM_LIB.em_rdata_gen(rtl)
+# Loading MSS_BFM_LIB.em_wdata_gen(rtl)
+# Loading presynth.intro_tmp_mss_ccc_0_mss_ccc(def_arch)
+# Loading smartfusion.MSS_CCC
+# Loading smartfusion.MSS_CCC_IP
+# Loading smartfusion.PLLPRIM
+# Loading smartfusion.NGMUXPRIM
+# Loading smartfusion.SHREG
+# Loading smartfusion.RCOSC
+# Loading smartfusion.GND
+# Loading smartfusion.VCC
+# Loading smartfusion.INBUF_MSS
+# Loading smartfusion.BIBUF_MSS
+# Loading smartfusion.TRIBUFF_MSS
+# Loading smartfusion.OUTBUF_MSS
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# Error : When using the Current Direct Analog Input, the AC direct analog input switch needs to be switched ON, at time 0.0
+# 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# Error : When using the Current Direct Analog Input, the AC direct analog input switch needs to be switched ON, at time 0.0
+# 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# Error : When using the Current Direct Analog Input, the AC direct analog input switch needs to be switched ON, at time 0.0
+# 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# Error : When using the Current Direct Analog Input, the AC direct analog input switch needs to be switched ON, at time 0.0
+# 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# Error : When using the Current Direct Analog Input, the AC direct analog input switch needs to be switched ON, at time 0.0
+# 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# Error : When using the Current Direct Analog Input, the AC direct analog input switch needs to be switched ON, at time 0.0
+# 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# Error : When using the Current Direct Analog Input, the AC direct analog input switch needs to be switched ON, at time 0.0
+# 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# Error : When using the Current Direct Analog Input, the AC direct analog input switch needs to be switched ON, at time 0.0
+# 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# Error : When using the Current Direct Analog Input, the AC direct analog input switch needs to be switched ON, at time 0.0
+# 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# Error : When using the Current Direct Analog Input, the AC direct analog input switch needs to be switched ON, at time 0.0
+# 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# Error : When using the Current Direct Analog Input, the AC direct analog input switch needs to be switched ON, at time 0.0
+# 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# Error : When using the Current Direct Analog Input, the AC direct analog input switch needs to be switched ON, at time 0.0
+# 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# **** INFO : Disabled Current Monitor **** 
+#  **** INFO: Disabled Temperature Monitor**** 
+# **** INFO : Disabled Current Monitor **** 
+#  **** INFO: Disabled Temperature Monitor**** 
+# **** INFO : Disabled Current Monitor **** 
+#  **** INFO: Disabled Temperature Monitor**** 
+# **** INFO : Disabled Current Monitor **** 
+#  **** INFO: Disabled Temperature Monitor**** 
+# **** INFO : Disabled Current Monitor **** 
+#  **** INFO: Disabled Temperature Monitor**** 
+# **** INFO : Disabled Current Monitor **** 
+#  **** INFO: Disabled Temperature Monitor**** 
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+#  ** Warning: OCDIVHALF unknown.
+#  Time: 0.0 Instance: intro_test_stimulus.Top_0.Intro_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: OBDIVHALF unknown.
+#  Time: 0.0 Instance: intro_test_stimulus.Top_0.Intro_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: OADIVHALF unknown.
+#  Time: 0.0 Instance: intro_test_stimulus.Top_0.Intro_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: intro_test_stimulus.Top_0.Intro_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+# voltage in bits is 0000000000000000
+# converted voltage is 0.000000e+00
+# voltage in bits is 0000000000000000
+# converted voltage is 0.000000e+00
+# voltage in bits is 0000000000000000
+# converted voltage is 0.000000e+00
+#  Warning : Reserved ADC mode 
+#  Time: 0.0 Instance: intro_test_stimulus.Top_0.Intro_0.MSS_ADLIB_INST.apb_inst.AB_0.VandVinst.u_adc2 
+#  Warning : Reserved ADC mode 
+#  Time: 0.0 Instance: intro_test_stimulus.Top_0.Intro_0.MSS_ADLIB_INST.apb_inst.AB_0.VandVinst.u_adc1 
+#  Warning : Reserved ADC mode 
+#  Time: 0.0 Instance: intro_test_stimulus.Top_0.Intro_0.MSS_ADLIB_INST.apb_inst.AB_0.VandVinst.u_adc0 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: intro_test_stimulus.Top_0.Intro_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# DAC_0 Selected
+# WARNING: This selection is currently is unsupported. Select signal should be either 0,1, or 2
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# **** INFO : Disabled Current Monitor **** 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# **** INFO : Disabled Current Monitor **** 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# **** INFO : Disabled Current Monitor **** 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# **** INFO : Disabled Current Monitor **** 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# **** INFO : Disabled Current Monitor **** 
+#  **** INFO: Disabled Temperature Monitor**** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+#  **** INFO - Disabled Voltage Prescaling **** 
+# **** INFO : Disabled Current Monitor **** 
+#  **** INFO: Disabled Temperature Monitor**** 
+# voltage in bits is 0000000000000000
+# converted voltage is 0.000000e+00
+# voltage in bits is 0000000000000000
+# converted voltage is 0.000000e+00
+# voltage in bits is 0000000000000000
+# converted voltage is 0.000000e+00
+#  ERROR: ACB Address for Read is not in the ACB address range 
+#  Time: 0.0 Instance: intro_test_stimulus.Top_0.Intro_0.MSS_ADLIB_INST.apb_inst.AB_0.VandVinst.acb 
+#  Warning : Reserved ADC mode 
+#  Time: 0.0 Instance: intro_test_stimulus.Top_0.Intro_0.MSS_ADLIB_INST.apb_inst.AB_0.VandVinst.u_adc0 
+#  Warning : Reserved ADC mode 
+#  Time: 0.0 Instance: intro_test_stimulus.Top_0.Intro_0.MSS_ADLIB_INST.apb_inst.AB_0.VandVinst.u_adc1 
+#  Warning : Reserved ADC mode 
+#  Time: 0.0 Instance: intro_test_stimulus.Top_0.Intro_0.MSS_ADLIB_INST.apb_inst.AB_0.VandVinst.u_adc2 
+#  
+###########################################################################
+# AMBA BFM Model
+# Version 2.1 22Dec08
+#  
+# Opening BFM Script file test.vec
+# Read 483 Vectors - Compiler Version 22.26
+# BFM:Filenames referenced in Vectors
+#   test.bfm
+#   user.bfm
+#   subsystem.bfm
+# BFM:184:call 5
+# BFM:55:write w e0042000 00000000 at 504 ns
+# BFM:56:write w e0042004 00000092 at 535 ns
+# SYSREG: Word Write 000=00000000 at 566 ns
+# BFM:57:write w e0042008 00000001 at 566 ns
+# BFM: Data Write e0042000 00000000
+# SYSREG: Word Write 004=00000092 at 598 ns
+# BFM:58:write w e004200c 00000000 at 598 ns
+# BFM: Data Write e0042004 00000092
+# SYSREG: Word Write 008=00000001 at 629 ns
+# BFM:59:write w e0042010 0000001e at 629 ns
+# BFM: Data Write e0042008 00000001
+# SYSREG: Word Write 00c=00000000 at 660 ns
+# BFM:60:write w e0042014 00000000 at 660 ns
+# BFM: Data Write e004200c 00000000
+# SYSREG: Word Write 010=0000001e at 691 ns
+# BFM:61:write w e0042018 00000007 at 691 ns
+# BFM: Data Write e0042010 0000001e
+# SYSREG: Word Write 014=00000000 at 723 ns
+# BFM:62:write w e004201c 00000000 at 723 ns
+# BFM: Data Write e0042014 00000000
+# SYSREG: Word Write 018=00000007 at 754 ns
+# BFM:63:write w e0042020 00000000 at 754 ns
+# BFM: Data Write e0042018 00000007
+# SYSREG: Word Write 01c=00000000 at 785 ns
+# BFM:64:write w e0042024 00000004 at 785 ns
+# BFM: Data Write e004201c 00000000
+# SYSREG: Word Write 020=00000000 at 816 ns
+# BFM:65:write w e0042028 00000000 at 816 ns
+# BFM: Data Write e0042020 00000000
+# SYSREG: Word Write 024=00000004 at 848 ns
+# BFM:66:write w e004202c 00000000 at 848 ns
+# BFM: Data Write e0042024 00000004
+# SYSREG: Word Write 028=00000000 at 879 ns
+# BFM:67:write w e0042030 0008fff8 at 879 ns
+# BFM: Data Write e0042028 00000000
+# SYSREG: Word Write 02c=00000000 at 910 ns
+# BFM:68:write w e0042034 00000000 at 910 ns
+# BFM: Data Write e004202c 00000000
+# SYSREG: Word Write 030=0008fff8 at 941 ns
+# BFM:69:write w e0042038 32000000 at 941 ns
+# BFM: Data Write e0042030 0008fff8
+#  
+###########################################################################
+# AMBA BFM Model
+# Version 2.1 22Dec08
+#  
+# Opening BFM Script file test.vec
+# Read 483 Vectors - Compiler Version 22.26
+# BFM:Filenames referenced in Vectors
+#   test.bfm
+#   user.bfm
+#   subsystem.bfm
+# BFM:184:call 5
+# BFM:55:write w e0042000 00000000 at 973 ns
+# BFM: Data Write 00000000 00000000
+# BFM:56:write w e0042004 00000092 at 1004 ns
+# SYSREG: Word Write 000=00000000 at 1035 ns
+# BFM:57:write w e0042008 00000001 at 1035 ns
+# BFM: Data Write e0042000 00000000
+# SYSREG: Word Write 004=00000092 at 1066 ns
+# BFM:58:write w e004200c 00000000 at 1066 ns
+# BFM: Data Write e0042004 00000092
+# SYSREG: Word Write 008=00000001 at 1098 ns
+# BFM:59:write w e0042010 0000001e at 1098 ns
+# BFM: Data Write e0042008 00000001
+# SYSREG: Word Write 00c=00000000 at 1129 ns
+# BFM:60:write w e0042014 00000000 at 1129 ns
+# BFM: Data Write e004200c 00000000
+# SYSREG: Word Write 010=0000001e at 1160 ns
+# BFM:61:write w e0042018 00000007 at 1160 ns
+# BFM: Data Write e0042010 0000001e
+# SYSREG: Word Write 014=00000000 at 1191 ns
+# BFM:62:write w e004201c 00000000 at 1191 ns
+# BFM: Data Write e0042014 00000000
+# SYSREG: Word Write 018=00000007 at 1223 ns
+# BFM:63:write w e0042020 00000000 at 1223 ns
+# BFM: Data Write e0042018 00000007
+# SYSREG: Word Write 01c=00000000 at 1254 ns
+# BFM:64:write w e0042024 00000004 at 1254 ns
+# BFM: Data Write e004201c 00000000
+# SYSREG: Word Write 020=00000000 at 1285 ns
+# BFM:65:write w e0042028 00000000 at 1285 ns
+# BFM: Data Write e0042020 00000000
+# SYSREG: Word Write 024=00000004 at 1316 ns
+# BFM:66:write w e004202c 00000000 at 1316 ns
+# BFM: Data Write e0042024 00000004
+# SYSREG: Word Write 028=00000000 at 1348 ns
+# BFM:67:write w e0042030 0008fff8 at 1348 ns
+# BFM: Data Write e0042028 00000000
+# SYSREG: Word Write 02c=00000000 at 1379 ns
+# BFM:68:write w e0042034 00000000 at 1379 ns
+# BFM: Data Write e004202c 00000000
+# SYSREG: Word Write 030=0008fff8 at 1410 ns
+# BFM:69:write w e0042038 32000000 at 1410 ns
+# BFM: Data Write e0042030 0008fff8
+# SYSREG: Word Write 034=00000000 at 1441 ns
+# BFM:70:write w e004203c 00000000 at 1441 ns
+# BFM: Data Write e0042034 00000000
+# SYSREG: Word Write 038=32000000 at 1473 ns
+# BFM:71:write w e0042040 00100005 at 1473 ns
+# BFM: Data Write e0042038 32000000
+# SYSREG: Word Write 03c=00000000 at 1504 ns
+# BFM:72:write w e0042044 00100005 at 1504 ns
+# BFM: Data Write e004203c 00000000
+# SYSREG: Word Write 040=00100005 at 1535 ns
+# BFM:73:write w e0042048 00000800 at 1535 ns
+# BFM: Data Write e0042040 00100005
+# SYSREG: Word Write 044=00100005 at 1566 ns
+# BFM:74:write w e004204c 00030000 at 1566 ns
+# BFM: Data Write e0042044 00100005
+# SYSREG: Word Write 048=00000800 at 1598 ns
+# BFM:75:write w e0042050 0d0a4040 at 1598 ns
+# BFM: Data Write e0042048 00000800
+# SYSREG: Word Write 04c=00030000 at 1629 ns
+# BFM:76:write w e0042054 00000000 at 1629 ns
+# BFM: Data Write e004204c 00030000
+# SYSREG: Word Write 050=0d0a4040 at 1660 ns
+# BFM:77:write w e0042058 01ff8000 at 1660 ns
+# BFM: Data Write e0042050 0d0a4040
+# SYSREG: Word Write 054=00000000 at 1691 ns
+# BFM:78:write w e004205c 00000000 at 1691 ns
+# BFM: Data Write e0042054 00000000
+# SYSREG: Word Write 058=01ff8000 at 1723 ns
+# BFM:79:write w e0042060 00000000 at 1723 ns
+# BFM: Data Write e0042058 01ff8000
+# SYSREG: Word Write 05c=00000000 at 1754 ns
+# BFM:80:write w e0042064 00000010 at 1754 ns
+# BFM: Data Write e004205c 00000000
+# SYSREG: Word Write 060=00000000 at 1785 ns
+# BFM:81:write w e0042068 00000100 at 1785 ns
+# BFM: Data Write e0042060 00000000
+# SYSREG: Word Write 064=00000010 at 1816 ns
+# BFM:82:write w e004206c 0000001a at 1816 ns
+# BFM: Data Write e0042064 00000010
+# SYSREG: Word Write 068=00000100 at 1848 ns
+# BFM:83:write w e0042070 00000000 at 1848 ns
+# BFM: Data Write e0042068 00000100
+# SYSREG: Word Write 06c=0000001a at 1879 ns
+# BFM:84:write w e0042074 00000000 at 1879 ns
+# BFM: Data Write e004206c 0000001a
+# SYSREG: Word Write 070=00000000 at 1910 ns
+# BFM:85:write w e0042078 00000000 at 1910 ns
+# BFM: Data Write e0042070 00000000
+# SYSREG: Word Write 074=00000000 at 1941 ns
+# BFM:86:write w e004207c 00000000 at 1941 ns
+# BFM: Data Write e0042074 00000000
+# SYSREG: Word Write 078=00000000 at 1973 ns
+# BFM:87:write w e0042080 00000000 at 1973 ns
+# BFM: Data Write e0042078 00000000
+# SYSREG: Word Write 07c=00000000 at 2004 ns
+# BFM:88:write w e0042084 00000000 at 2004 ns
+# BFM: Data Write e004207c 00000000
+# SYSREG: Word Write 080=00000000 at 2035 ns
+# BFM:89:write w e0042088 00000000 at 2035 ns
+# BFM: Data Write e0042080 00000000
+# SYSREG: Word Write 084=00000000 at 2066 ns
+# BFM:90:write w e004208c 00000000 at 2066 ns
+# BFM: Data Write e0042084 00000000
+# SYSREG: Word Write 088=00000000 at 2098 ns
+# BFM:91:write w e0042090 00000000 at 2098 ns
+# BFM: Data Write e0042088 00000000
+# SYSREG: Word Write 08c=00000000 at 2129 ns
+# BFM:92:write w e0042094 00000000 at 2129 ns
+# BFM: Data Write e004208c 00000000
+# SYSREG: Word Write 090=00000000 at 2160 ns
+# BFM:93:write w e0042098 00000000 at 2160 ns
+# BFM: Data Write e0042090 00000000
+# SYSREG: Word Write 094=00000000 at 2191 ns
+# BFM:94:write w e004209c 00000007 at 2191 ns
+# BFM: Data Write e0042094 00000000
+# SYSREG: Word Write 098=00000000 at 2223 ns
+# BFM:95:write w 40013000 00000000 at 2223 ns
+# BFM: Data Write e0042098 00000000
+# SYSREG: Word Write 09c=00000007 at 2254 ns
+# BFM:96:write w 40013004 00000000 at 2254 ns
+# BFM: Data Write e004209c 00000007
+# BFM:97:write w 40013008 00000000 at 2285 ns
+# BFM: Data Write 40013000 00000000
+# GPIO in DSS is disabled
+# BFM:98:write w 4001300c 00000000 at 2348 ns
+# BFM: Data Write 40013004 00000000
+# GPIO in DSS is disabled
+# BFM:99:write w 40013010 00000000 at 2410 ns
+# BFM: Data Write 40013008 00000000
+# GPIO in DSS is disabled
+# BFM:100:write w 40013014 00000000 at 2473 ns
+# BFM: Data Write 4001300c 00000000
+# GPIO in DSS is disabled
+# BFM:101:write w 40013018 00000000 at 2535 ns
+# BFM: Data Write 40013010 00000000
+# GPIO in DSS is disabled
+# BFM:102:write w 4001301c 00000000 at 2598 ns
+# BFM: Data Write 40013014 00000000
+# GPIO in DSS is disabled
+# BFM:103:write w 40013020 00000000 at 2660 ns
+# BFM: Data Write 40013018 00000000
+# GPIO in DSS is disabled
+# BFM:104:write w 40013024 00000000 at 2723 ns
+# BFM: Data Write 4001301c 00000000
+# GPIO in DSS is disabled
+# BFM:105:write w 40013028 00000000 at 2785 ns
+# BFM: Data Write 40013020 00000000
+# GPIO in DSS is disabled
+# BFM:106:write w 4001302c 00000000 at 2848 ns
+# BFM: Data Write 40013024 00000000
+# GPIO in DSS is disabled
+# BFM:107:write w 40013030 00000000 at 2910 ns
+# BFM: Data Write 40013028 00000000
+# GPIO in DSS is disabled
+# BFM:108:write w 40013034 00000000 at 2973 ns
+# BFM: Data Write 4001302c 00000000
+# GPIO in DSS is disabled
+# BFM:109:write w 40013038 00000000 at 3035 ns
+# BFM: Data Write 40013030 00000000
+# GPIO in DSS is disabled
+# BFM:110:write w 4001303c 00000000 at 3098 ns
+# BFM: Data Write 40013034 00000000
+# GPIO in DSS is disabled
+# BFM:111:write w 40013040 00000000 at 3160 ns
+# BFM: Data Write 40013038 00000000
+# GPIO in DSS is disabled
+# BFM:112:write w 40013044 00000000 at 3223 ns
+# BFM: Data Write 4001303c 00000000
+# GPIO in DSS is disabled
+# BFM:113:write w 40013048 00000000 at 3285 ns
+# BFM: Data Write 40013040 00000000
+# GPIO in DSS is disabled
+# BFM:114:write w 4001304c 00000000 at 3348 ns
+# BFM: Data Write 40013044 00000000
+# GPIO in DSS is disabled
+# BFM:115:write w 40013050 00000000 at 3410 ns
+# BFM: Data Write 40013048 00000000
+# GPIO in DSS is disabled
+# BFM:116:write w 40013054 00000000 at 3473 ns
+# BFM: Data Write 4001304c 00000000
+# GPIO in DSS is disabled
+# BFM:117:write w 40013058 00000000 at 3535 ns
+# BFM: Data Write 40013050 00000000
+# GPIO in DSS is disabled
+# BFM:118:write w 4001305c 00000000 at 3598 ns
+# BFM: Data Write 40013054 00000000
+# GPIO in DSS is disabled
+# BFM:119:write w 40013060 00000000 at 3660 ns
+# BFM: Data Write 40013058 00000000
+# GPIO in DSS is disabled
+# BFM:120:write w 40013064 00000000 at 3723 ns
+# BFM: Data Write 4001305c 00000000
+# GPIO in DSS is disabled
+# BFM:121:write w 40013068 00000000 at 3785 ns
+# BFM: Data Write 40013060 00000000
+# GPIO in DSS is disabled
+# BFM:122:write w 4001306c 00000000 at 3848 ns
+# BFM: Data Write 40013064 00000000
+# GPIO in DSS is disabled
+# BFM:123:write w 40013070 00000000 at 3910 ns
+# BFM: Data Write 40013068 00000000
+# GPIO in DSS is disabled
+# BFM:124:write w 40013074 00000000 at 3973 ns
+# BFM: Data Write 4001306c 00000000
+# GPIO in DSS is disabled
+# BFM:125:write w 40013078 00000000 at 4035 ns
+# BFM: Data Write 40013070 00000000
+# GPIO in DSS is disabled
+# BFM:126:write w 4001307c 00000000 at 4098 ns
+# BFM: Data Write 40013074 00000000
+# GPIO in DSS is disabled
+# BFM:127:return
+# BFM:185:call 295
+# BFM:136:write w 20000000 9abcdef0 at 4160 ns
+# BFM: Data Write 40013078 00000000
+# GPIO in DSS is disabled
+# BFM:137:readcheck w 20000000 9abcdef0 at 4223 ns
+# BFM: Data Write 4001307c 00000000
+# GPIO in DSS is disabled
+# ESRAM0: Word Write 00000000=9abcdef0 at 4285 ns
+# ESRAM0: Word Read 00000000=9abcdef0 at 4285 ns
+# BFM:140:write w 20008000 9abcdfff at 4285 ns
+# BFM: Data Write 20000000 9abcdef0
+# BFM:141:readcheck w 20008000 9abcdfff at 4316 ns
+# BFM: Data Read 20000000 9abcdef0 MASK:ffffffff
+# ESRAM1: Word Write 00000000=9abcdfff at 4348 ns
+# ESRAM1: Word Read 00000000=9abcdfff at 4348 ns
+# BFM:144:write w 60000000 9abcdfff at 4348 ns
+# BFM: Data Write 20008000 9abcdfff
+# BFM:145:readcheck w 60000000 9abcdfff at 4379 ns
+# BFM: Data Read 20008000 9abcdfff MASK:ffffffff
+# ENVM: Word Write 00000000=9abcdfff at 4410 ns
+# ENVM: Word Read 00000000=9abcdfff at 4410 ns
+# BFM:148:write w 4000000c 00000079 at 4410 ns
+# BFM: Data Write 60000000 9abcdfff
+# BFM:151:write w 40001004 9abcdef0 at 4441 ns
+# BFM: Data Read 60000000 9abcdfff MASK:ffffffff
+# BFM:154:write w 40002008 00000078 at 4473 ns
+# BFM: Data Write 4000000c 00000079
+# UART0 in DSS is disabled
+# BFM:157:write w 4001000c 000000f0 at 4535 ns
+# BFM: Data Write 40001004 9abcdef0
+# SPI0 in DSS is disabled
+# BFM:160:write w 40011000 0fedcba9 at 4598 ns
+# BFM: Data Write 40002008 00000078
+# I2C0 in DSS is disabled
+# BFM:163:write w 40012000 00000078 at 4660 ns
+# BFM: Data Write 4001000c 000000f0
+# UART1 in DSS is disabled
+# BFM:166:write w 40013088 ffffffff at 4723 ns
+# BFM: Data Write 40011000 0fedcba9
+# SPI1 in DSS is disabled
+# BFM:169:write w 70000000 9abcdef0 at 4785 ns
+# BFM: Data Write 40012000 00000078
+# I2C1 in DSS is disabled
+# BFM:171:return
+# BFM:186:call 353
+# BFM:32791:write b 40050004 000000aa at 4848 ns
+# BFM: Data Write 40013088 ffffffff
+# GPIO in DSS is disabled
+# BFM:32792:wait 10  starting at 4910 ns
+# BFM: Data Write 70000000 9abcdef0
+# BFM: Data Write 40050004 000000aa
+# BFM:32793:write b 40050000 00000001 at 5223 ns
+# BFM:32794:wait 10  starting at 5254 ns
+# BFM: Data Write 40050000 00000001
+# BFM:32796:write w 40050100 0000000f at 5566 ns
+# BFM:32797:write w 40050108 00000003 at 5598 ns
+# BFM:32798:wait 1  starting at 5629 ns
+# BFM:32799:read w 40050104 at 5660 ns
+# BFM: Data Write 40050100 0000000f
+# BFM:32800:wait 1  starting at 5754 ns
+# BFM:32801:read w 40050104 at 5785 ns
+# BFM: Data Write 40050108 00000003
+# BFM:32802:wait 1  starting at 5879 ns
+# BFM:32803:read w 40050104 at 5910 ns
+# BFM: Data Read 40050104 0000000e
+# BFM:32804:wait 1  starting at 5973 ns
+# BFM:32805:read w 40050104 at 6004 ns
+# BFM: Data Read 40050104 0000000d
+# BFM:32806:wait 1  starting at 6066 ns
+# BFM:32807:read w 40050104 at 6098 ns
+# BFM: Data Read 40050104 0000000b
+# BFM:32808:wait 1  starting at 6160 ns
+# BFM:32809:read w 40050104 at 6191 ns
+# BFM: Data Read 40050104 0000000a
+# BFM:32810:wait 1  starting at 6254 ns
+# BFM:32811:read w 40050104 at 6285 ns
+# BFM: Data Read 40050104 00000008
+# BFM:32812:wait 1  starting at 6348 ns
+# BFM:32813:read w 40050104 at 6379 ns
+# BFM: Data Read 40050104 00000007
+# BFM:32814:wait 1  starting at 6441 ns
+# BFM:32815:read w 40050104 at 6473 ns
+# BFM: Data Read 40050104 00000005
+# BFM:32816:wait 1  starting at 6535 ns
+# BFM:32817:read w 40050104 at 6566 ns
+# BFM: Data Read 40050104 00000004
+# BFM:32818:wait 1  starting at 6629 ns
+# BFM:32819:read w 40050104 at 6660 ns
+# BFM: Data Read 40050104 00000002
+# BFM:32820:wait 1  starting at 6723 ns
+# BFM:32821:read w 40050104 at 6754 ns
+# BFM: Data Read 40050104 00000001
+# BFM:32822:wait 1  starting at 6816 ns
+# BFM:32823:read w 40050104 at 6848 ns
+# BFM: Data Read 40050104 0000000f
+# BFM:32824:wait 1  starting at 6910 ns
+# BFM:32825:read w 40050104 at 6941 ns
+# BFM: Data Read 40050104 0000000e
+# BFM:32826:wait 1  starting at 7004 ns
+# BFM:32827:read w 40050104 at 7035 ns
+# BFM: Data Read 40050104 0000000c
+# BFM:32828:wait 1  starting at 7098 ns
+# BFM:32829:read w 40050104 at 7129 ns
+# BFM: Data Read 40050104 0000000b
+# BFM:32830:wait 1  starting at 7191 ns
+# BFM:32831:write w 40050110 00000000 at 7223 ns
+# BFM: Data Read 40050104 00000009
+# BFM:32835:return
+# BFM:187:return
+# BFM: Data Read 40050104 00000008
+# BFM: Data Write 40050110 00000000
+###########################################################
+#  
+# BFM Simulation Complete - 133 Instructions - NO ERRORS
+#  
+###########################################################
+#  
+# End time: 21:12:22 on Dec 08,2020, Elapsed time: 11:40:52
+# Errors: 0, Warnings: 0

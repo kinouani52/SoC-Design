@@ -1,0 +1,17 @@
+@W: CL240 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":38:10:38:21|Signal LPXIN_CLKOUT is floating; a simulation mismatch is possible.
+@W: CL240 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":37:10:37:23|Signal MAINXIN_CLKOUT is floating; a simulation mismatch is possible.
+@W: CL240 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\work\Intro\MSS_CCC_0\Intro_tmp_MSS_CCC_0_MSS_CCC.vhd":36:10:36:21|Signal RCOSC_CLKOUT is floating; a simulation mismatch is possible.
+@W: CG296 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":37:12:37:18|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":40:8:40:12|Referenced variable waddr is not in sensitivity list.
+@W: CG290 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":41:21:41:22|Referenced variable wd is not in sensitivity list.
+@W: CG296 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":48:11:48:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":51:6:51:19|Referenced variable reg_load_value is not in sensitivity list.
+@W: CG290 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":50:23:50:33|Referenced variable reg_control is not in sensitivity list.
+@W: CL117 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":50:0:50:1|Latch generated from process for signal RD(7 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":39:0:39:1|Latch generated from process for signal REG_load_value(7 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control.vhd":39:0:39:1|Latch generated from process for signal REG_control(7 downto 0); possible missing assignment in an if or case statement.
+@W: CL240 :"D:\SystemFiles\ESIGELEC-2021\Intro\hdl\FlashLED_control_wrapper.vhd":36:1:36:7|Signal PSLVERR is floating; a simulation mismatch is possible.
+@W: CD434 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":1438:29:1438:38|Signal infill_upr in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":616:7:616:15|Signal ia_prdata is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL246 :"D:\SystemFiles\ESIGELEC-2021\Intro\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":78:0:78:4|Input port bits 31 to 12 of paddr(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+

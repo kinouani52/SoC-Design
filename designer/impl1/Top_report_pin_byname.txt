@@ -1,0 +1,27 @@
+*****************************************************************
+Pin Report - Date: Tue Dec 08 09:20:53 2020 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+Design Name: Top
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+*****************************************************************
+Port        |Pin |Fixed |Function           |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+------------|----|------|-------------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
+MSS_RESET_N  R1   Yes    MSS_RESET_N         LVTTL    ---                ---   None           No               ---   ---               No           Yes
+RD[0]        B19  Yes    GBB0/IO18NDB0V0     LVTTL    12                 High  None           ---              No    35                No           No
+RD[1]        B20  Yes    GBB1/IO18PDB0V0     LVTTL    12                 High  None           ---              No    35                No           No
+RD[2]        C19  Yes    GBA0/IO19NPB0V0     LVTTL    12                 High  None           ---              No    35                No           No
+RD[3]        H17  Yes    IO25NDB1V0          LVTTL    12                 High  None           ---              No    35                No           No
+RD[4]        H20  Yes    GCC0/IO26NPB1V0     LVTTL    12                 High  None           ---              No    35                No           No
+RD[5]        C21  Yes    GBC2/IO21PDB1V0     LVTTL    12                 High  None           ---              No    35                No           No
+RD[6]        D21  Yes    IO21NDB1V0          LVTTL    12                 High  None           ---              No    35                No           No
+RD[7]        G21  Yes    GCB2/IO24PDB1V0     LVTTL    12                 High  None           ---              No    35                No           No
+SPI_0_CLK    W19  Yes    SPI_0_CLK/GPIO_18   LVTTL    8                  High  None           No               No    35                No           Yes
+SPI_0_DI     V18  Yes    SPI_0_DI/GPIO_17    LVTTL    ---                ---   None           No               ---   ---               No           Yes
+SPI_0_DO     U17  Yes    SPI_0_DO/GPIO_16    LVTTL    8                  High  None           ---              No    35                No           Yes
+SPI_0_SS     Y20  Yes    SPI_0_SS/GPIO_19    LVTTL    8                  High  None           No               No    35                No           Yes
+UART_0_RXD   U18  Yes    UART_0_RXD/GPIO_21  LVTTL    ---                ---   None           No               ---   ---               No           Yes
+UART_0_TXD   Y22  Yes    UART_0_TXD/GPIO_20  LVTTL    8                  High  None           ---              No    35                No           Yes

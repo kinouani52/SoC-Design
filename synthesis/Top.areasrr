@@ -1,0 +1,128 @@
+----------------------------------------------------------------------
+Report for cell Top.rtl
+                                          Cell usage:
+                               cell       count     area    count*area
+                           CoreAPB3         1      36.0       36.0
+                          CoreTimer         1     378.0      378.0
+           FlashLED_control_wrapper         1      38.0       38.0
+                                GND         1       0.0        0.0
+                              Intro         1       2.0        2.0
+                             OUTBUF         8       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             14                454.0
+----------------------------------------------------------------------
+Report for cell Intro.netlist
+     Instance path:  Intro_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                          BIBUF_MSS         2       0.0        0.0
+                               BUFF         2       1.0        2.0
+                             CLKINT         1       0.0        0.0
+                                GND         1       0.0        0.0
+                          INBUF_MSS         3       0.0        0.0
+          Intro_tmp_MSS_CCC_0_MSS_CCC         1       0.0        0.0
+                            MSS_APB         1       0.0        0.0
+                         OUTBUF_MSS         1       0.0        0.0
+                        TRIBUFF_MSS         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             14                  2.0
+----------------------------------------------------------------------
+Report for cell Intro_tmp_MSS_CCC_0_MSS_CCC.netlist
+     Instance path:  Intro_0.MSS_CCC_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                            MSS_CCC         1       0.0        0.0
+                              RCOSC         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  0.0
+----------------------------------------------------------------------
+Report for cell FlashLED_control_wrapper.netlist
+     Instance path:  FlashLED_control_wrapper_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                   FlashLED_control         1      38.0       38.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                 38.0
+----------------------------------------------------------------------
+Report for cell FlashLED_control.netlist
+     Instance path:  FlashLED_control_wrapper_0.M1
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DLN1        24       1.0       24.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         1       1.0        1.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             40                 38.0
+----------------------------------------------------------------------
+Report for cell CoreTimer.netlist
+     Instance path:  CoreTimer_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1        20       1.0       20.0
+                               AO1A         9       1.0        9.0
+                               AX1B        29       1.0       29.0
+                             CLKINT         1       0.0        0.0
+                             DFN1C0        41       1.0       41.0
+                           DFN1E1C0        39       1.0       39.0
+                           DFN1E1P0        31       1.0       31.0
+                             DFN1P0         7       1.0        7.0
+                                GND         1       0.0        0.0
+                                MX2        42       1.0       42.0
+                               MX2A         2       1.0        2.0
+                               NOR2         7       1.0        7.0
+                              NOR2A         7       1.0        7.0
+                              NOR2B        23       1.0       23.0
+                               NOR3         5       1.0        5.0
+                              NOR3A        21       1.0       21.0
+                              NOR3B         8       1.0        8.0
+                              NOR3C         2       1.0        2.0
+                                OA1         1       1.0        1.0
+                               OA1A         3       1.0        3.0
+                               OA1C         1       1.0        1.0
+                                OR2        43       1.0       43.0
+                               OR2A         6       1.0        6.0
+                               OR2B         2       1.0        2.0
+                                OR3        15       1.0       15.0
+                               OR3A         7       1.0        7.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1C         2       1.0        2.0
+                              XNOR2         1       1.0        1.0
+                               XOR2         3       1.0        3.0
+                            
+                         TOTAL            381                378.0
+----------------------------------------------------------------------
+Report for cell CoreAPB3.netlist
+     Instance path:  CoreAPB3_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                  COREAPB3_MUXPTOB3         1      32.0       32.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR3A         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              7                 36.0
+----------------------------------------------------------------------
+Report for cell COREAPB3_MUXPTOB3.netlist
+     Instance path:  CoreAPB3_0.u_mux_p_to_b3
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              NOR3C        32       1.0       32.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             34                 32.0

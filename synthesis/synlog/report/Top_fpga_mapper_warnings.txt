@@ -1,0 +1,1 @@
+@W: MT246 :"d:\systemfiles\esigelec-2021\intro\component\work\intro\intro.vhd":768:0:768:11|Blackbox TRIBUFF_MSS is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 

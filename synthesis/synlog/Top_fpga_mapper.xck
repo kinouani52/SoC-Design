@@ -1,0 +1,4 @@
+CKID0001:@|S:FlashLED_control_wrapper_0.M1.REG_control_1_sqmuxa@|E:FlashLED_control_wrapper_0.M1.REG_load_value[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:FlashLED_control_wrapper_0.M1.REG_control_0_sqmuxa@|E:FlashLED_control_wrapper_0.M1.REG_control[0]@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002 
+CKID0003:@|S:FlashLED_control_wrapper_0.M1.REG_control_RNIJQVQ3[0]@|E:FlashLED_control_wrapper_0.M1.RD[0]@|F:@syn_sample_clock_path2==CKID0003@|M:ClockId0003 
+CKID0004:@|S:Intro_0@|E:CoreTimer_0.iPRDATA[31]@|F:@syn_sample_clock_path3==CKID0004@|M:ClockId0004 
